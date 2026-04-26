@@ -1053,13 +1053,14 @@ section{ padding:var(--sec-y) 0; }
 }
 .profile-links{
   margin:var(--gap-l) 0 0;
-  padding-left:0;
+  padding-left:28px;
   display:flex;
   align-items:center;
-  justify-content:center;
+  justify-content:flex-start;
   gap:16px;
   flex-wrap:wrap;
 }
+@media (min-width:640px){ .profile-links{ padding-left:40px; } }
 .profile-links a{
   width:40px;
   height:40px;
