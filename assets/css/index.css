@@ -1053,25 +1053,32 @@ section{ padding:var(--sec-y) 0; }
 }
 .profile-links{
   margin:var(--gap-l) 0 0;
-  padding-left:28px;
+  padding-left:0;
   display:flex;
   align-items:center;
-  gap:14px;
+  justify-content:center;
+  gap:16px;
   flex-wrap:wrap;
 }
-@media (min-width:640px){ .profile-links{ padding-left:40px; } }
 .profile-links a{
-  width:32px;
-  height:32px;
+  width:40px;
+  height:40px;
   display:inline-flex;
   align-items:center;
   justify-content:center;
 }
 .profile-links img{
   display:block;
-  max-width:100%;
-  max-height:100%;
+  width:30px;
+  height:30px;
   object-fit:contain;
+}
+.profile-links a:first-child{
+  width:96px;
+}
+.profile-links a:first-child img{
+  width:96px;
+  height:96px;
 }
 .profile-link-x{
   background:var(--ink);
