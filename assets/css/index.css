@@ -1128,6 +1128,15 @@ section{ padding:var(--sec-y) 0; }
   color:var(--ink-4);
   letter-spacing:.08em;
 }
+.footer-links{
+  margin:0 0 10px;
+}
+.footer-links a{
+  color:var(--ink-4);
+  text-decoration:none;
+  border-bottom:1px solid var(--rule);
+  padding-bottom:2px;
+}
 
 /* =========================================================
    Animations

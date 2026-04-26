@@ -497,6 +497,18 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
   line-height:1.9;
   letter-spacing:.02em;
 }
+.footer-links{
+  margin:0 0 10px;
+  font-family:var(--f-sans);
+  font-size:11px;
+  letter-spacing:.02em;
+}
+.footer-links a{
+  color:var(--ink-4);
+  text-decoration:none;
+  border-bottom:1px solid var(--rule);
+  padding-bottom:2px;
+}
 
 /* =========================================================
    Animations
