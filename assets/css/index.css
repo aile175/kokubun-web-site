@@ -162,19 +162,6 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
   .hero{ padding:160px 0 120px; }
 }
 
-/* 左端の縦罫 ― 「整える」記号としての一本線 */
-.hero .rule-v{
-  position:absolute;
-  left:var(--pad-x);
-  top:128px; bottom:96px;
-  width:1px;
-  background:linear-gradient(to bottom, transparent, var(--rule) 18%, var(--rule) 82%, transparent);
-  transform-origin:top;
-  transform:scaleY(0);
-  animation:ruleDraw 1.4s var(--ease) .15s forwards;
-}
-@keyframes ruleDraw{ to{ transform:scaleY(1); } }
-
 .hero-inner{
   padding-left:28px;  /* 縦罫からの余白 */
 }
@@ -1201,7 +1188,6 @@ section{ padding:var(--sec-y) 0; }
     animation-duration:.001ms !important;
     transition-duration:.001ms !important;
   }
-  .hero .rule-v{ transform:scaleY(1); }
   .hero-title .ch,
   .eyebrow, .hero-sub, .hero-meta, .cta-row, .hero-note, .scroll-cue{
     opacity:1; transform:none;
