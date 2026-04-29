@@ -1172,6 +1172,10 @@ section{ padding:var(--sec-y) 0; }
   color:var(--ink-4);
   letter-spacing:.08em;
 }
+.footer-legal{
+  margin:0 0 14px;
+  line-height:1.9;
+}
 .footer-links{
   margin:0 0 10px;
 }
