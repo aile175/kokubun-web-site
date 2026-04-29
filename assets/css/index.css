@@ -1008,7 +1008,6 @@ section{ padding:var(--sec-y) 0; }
   margin-top:var(--gap-xl);
   padding:24px 28px;
   background:var(--accent-soft);
-  border-left:2px solid var(--accent);
   font-family:var(--f-mincho);
   font-weight:700;
   font-size:17px;
