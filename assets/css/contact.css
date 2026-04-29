@@ -158,7 +158,11 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
 @keyframes ruleDraw{ to{ transform:scaleY(1); } }
 
 .page-hero-inner{
-  text-align:center;
+  padding-left:28px;
+  text-align:left;
+}
+@media (min-width:640px){
+  .page-hero-inner{ padding-left:40px; }
 }
 
 .page-kicker{
@@ -167,7 +171,7 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
   letter-spacing:.24em;
   color:var(--ink-3);
   margin:0 0 12px;
-  display:flex; align-items:center; justify-content:center; gap:10px;
+  display:flex; align-items:center; justify-content:flex-start; gap:10px;
   opacity:0; transform:translateY(6px);
   animation:fadeUp .9s var(--ease) .2s forwards;
 }
