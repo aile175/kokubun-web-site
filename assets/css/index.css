@@ -510,7 +510,6 @@ section{ padding:var(--sec-y) 0; }
   margin-top:var(--gap-xl);
   padding:20px 24px;
   background:var(--accent-soft);
-  border-left:2px solid var(--accent);
   color:var(--ink-2);
   font-size:14px;
   line-height:2;
