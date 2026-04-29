@@ -75,6 +75,7 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
   margin:0 auto;
   padding-left:var(--pad-x);
   padding-right:var(--pad-x);
+  width:100%;
 }
 
 /* =========================================================
@@ -85,6 +86,7 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
   z-index:50;
   padding:14px var(--pad-x);
   display:flex; align-items:center; justify-content:space-between;
+  gap:12px;
   background:rgba(244,241,234,.82);
   backdrop-filter:saturate(140%) blur(10px);
   -webkit-backdrop-filter:saturate(140%) blur(10px);
@@ -125,6 +127,7 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
   font-weight:500;
   letter-spacing:.04em;
   white-space:nowrap;
+  flex:0 0 auto;
   transition:background .4s var(--ease);
 }
 .header-cta:hover{ background:#090A0D; }
@@ -160,6 +163,7 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
 .page-hero-inner{
   padding-left:28px;
   text-align:left;
+  min-width:0;
 }
 @media (min-width:640px){
   .page-hero-inner{ padding-left:40px; }
@@ -187,6 +191,7 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
   line-height:1.4;
   letter-spacing:.02em;
   margin:0;
+  overflow-wrap:anywhere;
   opacity:0; transform:translateY(10px);
   animation:fadeUp .9s var(--ease) .35s forwards;
 }
@@ -205,6 +210,7 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
   font-size:15px;
   line-height:2.1;
   max-width:34em;
+  overflow-wrap:anywhere;
   opacity:0; transform:translateY(12px);
   animation:fadeUp .9s var(--ease) .5s forwards;
 }
@@ -217,6 +223,7 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
   display:flex; flex-direction:column; gap:24px;
   padding-left:28px;
   margin:0 0 var(--gap-xl);
+  min-width:0;
 }
 @media (min-width:640px){
   .channel-cards{ padding-left:40px; }
@@ -227,9 +234,11 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
   border-radius:4px;
   padding:28px 24px;
   max-width:480px;
+  width:100%;
   position:relative;
   transition:border-color .4s var(--ease);
   text-align:center;
+  overflow-wrap:anywhere;
 }
 .channel-card:hover{
   border-color:var(--rule);
@@ -284,6 +293,8 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
   width:100%;
   max-width:320px;
   margin:0 auto;
+  min-width:0;
+  text-align:center;
 }
 .btn:hover{ transform:translateY(-1px); }
 .btn:active{ transform:translateY(0); }
@@ -316,6 +327,7 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
 }
 
 .btn-arrow{
+  flex:0 0 auto;
   display:inline-block;
   width:12px; height:1px; background:currentColor;
   position:relative;
@@ -332,6 +344,7 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
 .contact-notes{
   padding-left:28px;
   margin:0 0 var(--gap-xl);
+  min-width:0;
 }
 @media (min-width:640px){
   .contact-notes{ padding-left:40px; }
@@ -342,6 +355,8 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
   background:var(--accent-soft);
   border-radius:4px;
   max-width:480px;
+  width:100%;
+  overflow-wrap:anywhere;
 }
 
 .contact-notes-title{
@@ -367,6 +382,7 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
 .response-info{
   padding-left:28px;
   margin:0 0 var(--gap-xl);
+  min-width:0;
 }
 @media (min-width:640px){
   .response-info{ padding-left:40px; }
@@ -375,6 +391,7 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
 .response-info dl{
   margin:0; padding:0;
   max-width:480px;
+  width:100%;
   border-top:1px solid var(--rule-soft);
 }
 .response-info .info-row{
@@ -394,6 +411,8 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
   margin:0;
   font-size:14px;
   color:var(--ink-2);
+  min-width:0;
+  overflow-wrap:anywhere;
 }
 @media (min-width:640px){
   .response-info dt{ font-size:15px; }
@@ -408,6 +427,7 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
   color:var(--ink-3);
   line-height:2.1;
   max-width:34em;
+  overflow-wrap:anywhere;
 }
 @media (min-width:640px){
   .contact-caution{ padding-left:40px; }
@@ -421,6 +441,7 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
   color:var(--ink-3);
   line-height:2;
   max-width:34em;
+  overflow-wrap:anywhere;
 }
 @media (min-width:640px){
   .privacy-note{ padding-left:40px; }
@@ -440,6 +461,7 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
   padding-left:28px;
   padding-top:var(--gap-xl);
   border-top:1px solid var(--rule-soft);
+  min-width:0;
 }
 @media (min-width:640px){
   .operator-info{ padding-left:40px; }
@@ -473,6 +495,56 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
   margin:0;
   font-size:13px;
   color:var(--ink-2);
+  min-width:0;
+  overflow-wrap:anywhere;
+}
+
+@media (max-width:520px){
+  .site-header{ padding-inline:16px; }
+  .header-cta{ padding-inline:14px; font-size:12px; }
+  .page-title,
+  .contact-intro,
+  .channel-card,
+  .channel-desc,
+  .contact-notes-inner,
+  .response-info,
+  .contact-caution,
+  .privacy-note,
+  .operator-info{
+    line-break:anywhere;
+    overflow-wrap:anywhere;
+    word-break:break-word;
+  }
+  .contact-body br{ display:none; }
+  .page-hero-inner,
+  .contact-intro,
+  .channel-cards,
+  .contact-notes,
+  .response-info,
+  .contact-caution,
+  .privacy-note,
+  .operator-info{
+    padding-left:16px;
+  }
+  .channel-card{ padding:24px 18px; }
+  .contact-notes-inner{ padding:22px 20px; }
+  .btn{ max-width:100%; padding-inline:18px; }
+}
+@media (max-width:340px){
+  .site-header{ padding-inline:14px; gap:8px; }
+  .brand-mark{ font-size:15px; }
+  .header-cta{ padding-inline:12px; font-size:12px; }
+  .page-hero-inner,
+  .contact-intro,
+  .channel-cards,
+  .contact-notes,
+  .response-info,
+  .contact-caution,
+  .privacy-note,
+  .operator-info{
+    padding-left:12px;
+  }
+  .channel-card{ padding-inline:16px; }
 }
 @media (min-width:640px){
   .operator-info dt{ font-size:14px; }

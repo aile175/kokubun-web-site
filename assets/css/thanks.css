@@ -68,6 +68,7 @@ a{ color:inherit; text-decoration:none; }
   margin:0 auto;
   padding-left:var(--pad-x);
   padding-right:var(--pad-x);
+  width:100%;
 }
 
 /* =========================================================
@@ -112,6 +113,7 @@ a{ color:inherit; text-decoration:none; }
 
 .thanks-inner{
   position:relative;
+  min-width:0;
 }
 
 .thanks-kicker{
@@ -158,6 +160,7 @@ a{ color:inherit; text-decoration:none; }
 .thanks-actions{
   display:flex; flex-direction:column; gap:12px;
   max-width:420px;
+  width:100%;
   margin-top:48px;
 }
 @media (min-width:520px){
@@ -176,6 +179,9 @@ a{ color:inherit; text-decoration:none; }
   border-radius:4px;
   transition:transform .4s var(--ease), background .4s var(--ease), color .4s var(--ease), border-color .4s var(--ease);
   flex:1 1 auto;
+  min-width:0;
+  max-width:100%;
+  text-align:center;
 }
 .btn:hover{ transform:translateY(-1px); }
 .btn:active{ transform:translateY(0); }
@@ -198,9 +204,34 @@ a{ color:inherit; text-decoration:none; }
 }
 
 .btn-arrow{
+  flex:0 0 auto;
   display:inline-block;
   width:12px; height:1px; background:currentColor;
   position:relative;
+}
+
+@media (max-width:520px){
+  .thanks{
+    padding:72px 0 64px;
+    justify-content:flex-start;
+  }
+  .thanks-title{
+    font-size:28px;
+    line-break:anywhere;
+    word-break:break-word;
+  }
+  .thanks-body,
+  .footer-legal{
+    line-break:anywhere;
+    overflow-wrap:anywhere;
+    word-break:break-word;
+  }
+  .thanks-actions{ max-width:100%; }
+  .btn{ width:100%; padding-inline:18px; }
+}
+@media (max-width:340px){
+  .thanks-title{ font-size:26px; }
+  .btn{ font-size:14px; padding-inline:14px; }
 }
 .btn-arrow::after{
   content:""; position:absolute; right:0; top:-3px;

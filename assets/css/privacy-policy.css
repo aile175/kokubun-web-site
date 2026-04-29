@@ -74,6 +74,7 @@ a{ color:inherit; text-decoration:none; }
   margin:0 auto;
   padding-left:var(--pad-x);
   padding-right:var(--pad-x);
+  width:100%;
 }
 
 /* =========================================================
@@ -84,6 +85,7 @@ a{ color:inherit; text-decoration:none; }
   z-index:50;
   padding:14px var(--pad-x);
   display:flex; align-items:center; justify-content:space-between;
+  gap:12px;
   background:rgba(244,241,234,.82);
   backdrop-filter:saturate(140%) blur(10px);
   -webkit-backdrop-filter:saturate(140%) blur(10px);
@@ -121,6 +123,7 @@ a{ color:inherit; text-decoration:none; }
   font-weight:500;
   letter-spacing:.04em;
   white-space:nowrap;
+  flex:0 0 auto;
   color:var(--ink);
   border:1px solid var(--ink);
   border-radius:4px;
@@ -156,6 +159,7 @@ a{ color:inherit; text-decoration:none; }
   margin:0 0 var(--gap-xl);
   padding-left:28px;
   position:relative;
+  min-width:0;
 }
 @media (min-width:640px){
   .section-head{ padding-left:40px; }
@@ -181,11 +185,13 @@ a{ color:inherit; text-decoration:none; }
   line-height:1.5;
   letter-spacing:.02em;
   margin:0;
+  overflow-wrap:anywhere;
 }
 
 /* --- Policy body --- */
 .policy-content{
   padding-left:28px;
+  min-width:0;
 }
 @media (min-width:640px){
   .policy-content{ padding-left:40px; }
@@ -197,6 +203,7 @@ a{ color:inherit; text-decoration:none; }
   font-size:15px;
   line-height:2.05;
   max-width:36em;
+  overflow-wrap:anywhere;
 }
 @media (min-width:640px){
   .policy-lead{ font-size:16px; }
@@ -220,6 +227,7 @@ a{ color:inherit; text-decoration:none; }
   line-height:1.6;
   padding-bottom:12px;
   border-bottom:1px solid var(--rule-soft);
+  overflow-wrap:anywhere;
 }
 @media (min-width:640px){
   .policy-section-title{ font-size:20px; }
@@ -231,6 +239,7 @@ a{ color:inherit; text-decoration:none; }
   font-size:15px;
   line-height:2.05;
   max-width:36em;
+  overflow-wrap:anywhere;
 }
 @media (min-width:640px){
   .policy-text{ font-size:16px; }
@@ -248,6 +257,7 @@ a{ color:inherit; text-decoration:none; }
   line-height:2.05;
   color:var(--ink-2);
   max-width:36em;
+  overflow-wrap:anywhere;
 }
 @media (min-width:640px){
   .policy-list{ font-size:16px; }
@@ -270,6 +280,7 @@ a{ color:inherit; text-decoration:none; }
   font-size:15px;
   line-height:2.05;
   color:var(--ink-2);
+  overflow-wrap:anywhere;
 }
 @media (min-width:640px){
   .policy-dl{ font-size:16px; }
@@ -285,6 +296,38 @@ a{ color:inherit; text-decoration:none; }
 .policy-dl dd{
   display:inline;
   margin:0;
+  min-width:0;
+}
+
+@media (max-width:520px){
+  .site-header{ padding-inline:16px; }
+  .header-back{ padding-inline:14px; font-size:12px; }
+  .page-body{ padding-top:92px; }
+  .section-title,
+  .policy-lead,
+  .policy-section-title,
+  .policy-text,
+  .policy-list,
+  .policy-dl,
+  .policy-dates,
+  .footer-legal{
+    line-break:anywhere;
+    overflow-wrap:anywhere;
+    word-break:break-word;
+  }
+  .section-head,
+  .policy-content{
+    padding-left:16px;
+  }
+}
+@media (max-width:340px){
+  .site-header{ padding-inline:14px; gap:8px; }
+  .brand-mark{ font-size:15px; }
+  .header-back{ padding-inline:10px; font-size:12px; }
+  .section-head,
+  .policy-content{
+    padding-left:12px;
+  }
 }
 
 /* --- 制定日・改定日 --- */
