@@ -1112,7 +1112,18 @@ section{ padding:var(--sec-y) 0; }
   opacity:1; transform:none;
   animation:none;
 }
-@media (min-width:640px){ .contact .cta-row{ padding-left:40px; } }
+.contact .btn{
+  white-space:nowrap;
+}
+@media (min-width:640px){
+  .contact .cta-row{
+    padding-left:40px;
+    max-width:480px;
+  }
+  .contact .btn{
+    min-width:200px;
+  }
+}
 
 .contact .btn-primary{
   background:var(--paper);
