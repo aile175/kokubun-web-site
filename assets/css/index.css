@@ -176,8 +176,6 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
   color:var(--ink-3);
   text-transform:none;
   display:flex; align-items:center; gap:10px;
-  justify-content:center;
-  text-align:center;
   margin:0 0 28px;
   opacity:0; transform:translateY(6px);
   animation:fadeUp .9s var(--ease) .3s forwards;
@@ -217,12 +215,11 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
 }
 
 .hero-meta{
-  display:flex; align-items:center; justify-content:center; gap:10px;
+  display:inline-flex; align-items:center; gap:10px;
   font-family:var(--f-num);
   font-size:12px;
   letter-spacing:.08em;
   color:var(--ink-3);
-  text-align:center;
   margin:0 0 36px;
   opacity:0;
   animation:fadeIn 1s var(--ease) 1.05s forwards;
@@ -300,7 +297,6 @@ button{ font:inherit; color:inherit; background:none; border:0; cursor:pointer; 
   font-size:12px;
   color:var(--ink-4);
   letter-spacing:.04em;
-  text-align:center;
   opacity:0;
   animation:fadeIn 1s var(--ease) 1.4s forwards;
 }
