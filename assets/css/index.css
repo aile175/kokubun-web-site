@@ -770,7 +770,7 @@ section{ padding:var(--sec-y) 0; }
     display:block;
     padding:15px 16px;
     border:1px solid var(--rule-soft);
-    border-radius:8px;
+    border-radius:0;
     background:rgba(255,255,255,.45);
   }
   .opt-table th,
