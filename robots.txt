@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aile175.github.io/kokubun-web-site/sitemap.xml
