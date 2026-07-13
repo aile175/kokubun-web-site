@@ -16,7 +16,7 @@
           // stagger siblings
           var delay = 0;
           var parent = e.target.parentElement;
-          var staggerParents = ['worry-list','caps-list','reasons-list','flow-list','faq-list'];
+          var staggerParents = ['who-grid','caps-list','path-list','reasons-list','flow-list','faq-list'];
           var isStagger = parent && staggerParents.some(function(c){ return parent.classList.contains(c); });
           if (isStagger){
             var siblings = Array.prototype.slice.call(parent.children);
