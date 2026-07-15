@@ -899,6 +899,34 @@ section{ padding:var(--sec-y) 0; }
 .svc-cta{
   margin-top:4px;
 }
+#shindan .svc-cta{
+  max-width:100%;
+}
+@media (min-width:520px){
+  #shindan .svc-cta{
+    flex-direction:row;
+    flex-wrap:nowrap;
+  }
+  #shindan .svc-cta .btn{
+    white-space:nowrap;
+  }
+  #shindan .svc-cta .btn:first-child{
+    flex:1.1 1 0;
+  }
+  #shindan .svc-cta .btn:last-child{
+    flex:.9 1 0;
+  }
+}
+@media (min-width:520px) and (max-width:639px){
+  #shindan .svc-cta{
+    gap:8px;
+  }
+  #shindan .svc-cta .btn{
+    gap:6px;
+    padding-inline:12px;
+    font-size:14px;
+  }
+}
 .svc-micro{
   margin:14px 0 0;
   font-size:12px;
