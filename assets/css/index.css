@@ -1232,6 +1232,12 @@ section{ padding:var(--sec-y) 0; }
   padding-top:6px;
 }
 
+/* 料金の二層表示（A：サイト本体を整える / B：必要なところだけ整える） */
+.price-tier{ margin:0 0 var(--gap-xl); }
+.price-tier:last-of-type{ margin-bottom:var(--gap-l); }
+.price-sec .spec-col-head{ margin-bottom:18px; }
+.price-sec .caps-note{ margin-top:0; }
+
 .price-notes{
   font-size:12px;
   color:var(--ink-3);
