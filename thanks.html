@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="#f6f8fc">
 <meta name="robots" content="noindex">
 <title>送信ありがとうございます｜國分Web製作所</title>
 <meta name="description" content="國分Web製作所へのお問い合わせ送信完了ページです。内容を確認のうえ、原則として翌営業日以内に文章でご返信します。">
@@ -34,33 +35,24 @@
 <link rel="manifest" href="site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500;700&family=Noto+Sans+JP:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="assets/css/thanks.css">
+<link rel="stylesheet" href="assets/css/common.css?v=20260916.1">
+<link rel="stylesheet" href="assets/css/pages.css?v=20260916.1">
 </head>
 <body>
-
-<!-- ======================================================
-     Header
-====================================================== -->
-<header class="site-header">
-  <a href="index.html" class="brand" aria-label="國分Web製作所 トップへ">
-    <span class="brand-mark">國分Web製作所</span>
-    <span class="brand-sub">SANO — TOCHIGI</span>
-  </a>
+<a class="skip-link" href="#main">本文へ移動</a>
+<header class="site-header" id="siteHeader">
+  <div class="wrap header-inner">
+    <a href="index.html" class="brand" aria-label="國分Web製作所 トップへ"><span class="brand-symbol" aria-hidden="true"></span><span class="brand-wordmark"><span class="brand-mark">國分Web製作所</span><span class="brand-sub">KOKUBUN WEB</span></span></a>
+    <nav class="desktop-nav" aria-label="メインナビゲーション"><a href="index.html#services">サービス</a><a href="index.html#works">制作実績</a><a href="index.html#price">料金</a><a href="index.html#about">製作所について</a></nav>
+    <a href="contact.html" class="header-cta">無料で相談する <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+    <button class="menu-toggle" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="mobileNav" hidden><span class="menu-icon" aria-hidden="true"></span></button>
+  </div>
+  <nav class="mobile-nav" id="mobileNav" aria-label="モバイルナビゲーション" hidden><a href="index.html#services">サービス</a><a href="index.html#works">制作実績</a><a href="index.html#price">料金</a><a href="index.html#flow">ご相談の流れ</a><a href="index.html#about">製作所について</a><a href="contact.html">お問い合わせ</a></nav>
 </header>
-
-<!-- ======================================================
-     Main ― 送信完了
-====================================================== -->
-<main class="thanks">
-  <div class="wrap">
-    <div class="thanks-inner">
-
-      <p class="thanks-kicker">THANK YOU</p>
-      <h1 class="thanks-title">送信ありがとうございます</h1>
-
-      <div class="thanks-body">
+<main id="main" class="subpage-main">
+<section class="status-page"><div class="wrap"><div class="status-card"><span class="status-symbol" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m8 16 5 5 11-11"/></svg></span><p class="section-kicker">THANK YOU</p><h1>送信ありがとうございます。</h1><div class="thanks-body">
         <p>
           お問い合わせ内容を受け付けました。<br>
           <span class="thanks-highlight">内容を確認のうえ、原則として翌営業日以内（土日祝を除く）に、文章でご返信します。</span>
@@ -74,37 +66,9 @@
         <p>
           お急ぎでなければ、そのままお待ちください。
         </p>
-      </div>
-
-      <div class="thanks-actions">
-        <a href="index.html" class="btn btn-ghost" aria-label="Topページへ戻る">
-          Topページへ戻る
-          <span class="btn-arrow" aria-hidden="true"></span>
-        </a>
-        <!-- LINE再掲：URL確定後に差し替え -->
-        <!--
-        <a href="https://lin.ee/qzJWOPt" class="btn btn-primary" aria-label="LINEで相談する">
-          LINEで相談する
-          <span class="btn-arrow" aria-hidden="true"></span>
-        </a>
-        -->
-      </div>
-
-    </div>
-  </div>
+      </div><div class="cta-row"><a href="index.html" class="btn btn-primary">トップページへ戻る <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></div></div></div></section>
 </main>
-
-<!-- ======================================================
-     Footer
-====================================================== -->
-<footer class="site-footer">
-  <p class="footer-legal">
-    本サイトの掲載内容は予告なく変更する場合があります。<br>
-    正式な料金・納期・作業範囲は、ヒアリングおよび個別のお見積りをもって確定します。
-  </p>
-  <p class="footer-links"><a href="privacy-policy.html">プライバシーポリシー</a></p>
-  <p class="footer-copy">&copy; 2026 國分Web製作所</p>
-</footer>
-
+<footer class="site-footer"><div class="wrap"><div class="footer-top"><div><a href="index.html" class="brand" aria-label="國分Web製作所 トップへ"><span class="brand-symbol" aria-hidden="true"></span><span class="brand-wordmark"><span class="brand-mark">國分Web製作所</span><span class="brand-sub">KOKUBUN WEB</span></span></a><p class="footer-tagline">いい仕事を、伝わるかたちに。栃木県佐野市から、全国へ。</p></div><nav class="footer-nav" aria-label="フッターナビゲーション"><a href="index.html#services">サービス</a><a href="index.html#works">制作実績</a><a href="contact.html">お問い合わせ</a><a href="privacy-policy.html">プライバシーポリシー</a></nav></div><div class="footer-bottom"><p class="footer-legal">本サイトの掲載内容は予告なく変更する場合があります。<br>正式な料金・納期・作業範囲は、ヒアリングおよび個別のお見積りをもって確定します。</p><small class="footer-copy">© 2026 KOKUBUN WEB</small></div></div></footer>
+<script src="assets/js/index.js?v=20260916.1" defer></script>
 </body>
 </html>

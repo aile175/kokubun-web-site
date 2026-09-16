@@ -1,0 +1,13 @@
+Generated with the built-in image_gen tool on 2026-09-16.
+Illustrative hero asset; not a photograph of the business or a client project.
+Original size: 1122 x 1402 px. WebP copy saved as studio-desk.webp.
+
+Final prompt:
+Use case: photorealistic-natural
+Asset type: Original raster website hero photograph for a Japanese small web-design studio serving construction firms and professional offices.
+Primary request: A premium editorial still-life photograph of an information designer's working table: several neatly aligned white sheets with very faint precise graphite wireframe/grid marks but NO readable text, a single slim silver mechanical pencil, a clear architectural ruler, and one small deep ultramarine blue paper swatch on a cool light gray matte desk.
+Lighting/mood: Bright natural side light from upper left creates long crisp architectural shadows, quietly tactile paper texture, precise thoughtful Japanese editorial art direction.
+Composition/framing: Strong geometric composition, generous negative space in upper right, eye-level slightly overhead oblique perspective (not flat vector). Portrait-ish 4:5 or square composition, intended for the right half of a website hero, can be cropped 4:5.
+Style/medium: Believable real photography.
+Color palette: Refined blue/white/graphite palette.
+Constraints: Exactly one image. No readable text, no beige, no plants, no laptop, no screens, no hands, no logos, no typography, no watermarks.

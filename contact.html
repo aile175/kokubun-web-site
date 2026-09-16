@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="#f6f8fc">
 <title>お問い合わせ｜國分Web製作所</title>
 <meta name="description" content="國分Web製作所へのお問い合わせページです。LINE公式アカウントを主受付、Googleフォームを補助受付としてご相談を受け付けています。">
 <link rel="canonical" href="https://aile175.github.io/kokubun-web-site/contact.html">
@@ -33,123 +34,26 @@
 <link rel="manifest" href="site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500;700&family=Noto+Sans+JP:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="assets/css/contact.css">
+<link rel="stylesheet" href="assets/css/common.css?v=20260916.1">
+<link rel="stylesheet" href="assets/css/pages.css?v=20260916.1">
 </head>
 <body>
-
-<!-- ======================================================
-     Header
-====================================================== -->
-<header class="site-header">
-  <a href="index.html" class="brand" aria-label="國分Web製作所 トップへ">
-    <span class="brand-mark">國分Web製作所</span>
-    <span class="brand-sub">SANO — TOCHIGI</span>
-  </a>
-  <a href="https://lin.ee/qzJWOPt" class="header-cta" aria-label="LINEで相談する">
-    LINEで相談
-    <span class="btn-arrow" aria-hidden="true"></span>
-  </a>
+<a class="skip-link" href="#main">本文へ移動</a>
+<header class="site-header" id="siteHeader">
+  <div class="wrap header-inner">
+    <a href="index.html" class="brand" aria-label="國分Web製作所 トップへ"><span class="brand-symbol" aria-hidden="true"></span><span class="brand-wordmark"><span class="brand-mark">國分Web製作所</span><span class="brand-sub">KOKUBUN WEB</span></span></a>
+    <nav class="desktop-nav" aria-label="メインナビゲーション"><a href="index.html#services">サービス</a><a href="index.html#works">制作実績</a><a href="index.html#price">料金</a><a href="index.html#about">製作所について</a></nav>
+    <a href="contact.html" class="header-cta" aria-current="page">無料で相談する <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+    <button class="menu-toggle" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="mobileNav" hidden><span class="menu-icon" aria-hidden="true"></span></button>
+  </div>
+  <nav class="mobile-nav" id="mobileNav" aria-label="モバイルナビゲーション" hidden><a href="index.html#services">サービス</a><a href="index.html#works">制作実績</a><a href="index.html#price">料金</a><a href="index.html#flow">ご相談の流れ</a><a href="index.html#about">製作所について</a><a href="contact.html">お問い合わせ</a></nav>
 </header>
-
-<main>
-
-  <!-- ======================================================
-       Page Hero
-  ====================================================== -->
-  <section class="page-hero" aria-label="お問い合わせ">
-    <div class="wrap">
-      <div class="page-hero-inner">
-        <p class="page-kicker">CONTACT</p>
-        <h1 class="page-title">お問い合わせ</h1>
-      </div>
-    </div>
-  </section>
-
-  <!-- ======================================================
-       Contact Body
-  ====================================================== -->
-  <section class="contact-body" aria-label="ご連絡方法のご案内">
-    <div class="wrap">
-
-      <p class="contact-intro">
-        ご相談は、LINE公式アカウントを主受付、Googleフォームを補助受付として承っています。<br>
-        内容がまだ整理できていない段階でも、お気軽にご連絡ください。
-      </p>
-
-      <!-- 最初に送る内容 -->
-      <div class="first-msg reveal">
-        <div class="first-msg-box">
-          <h2 class="first-msg-title">最初のメッセージは、この3つだけで大丈夫です</h2>
-          <ol class="first-msg-list" role="list">
-            <li><span>業種</span>例：塗装工事 / 行政書士</li>
-            <li><span>いまの状況</span>例：サイトがない / あるけれど見直したい</li>
-            <li><span>相談したいこと</span>例：HP診断を受けたい / まず話を聞きたい</li>
-          </ol>
-          <p class="first-msg-note">
-            全部そろっていなくても構いません。<br>
-            HP診断をご希望の場合は、「HP診断を希望」とだけお送りいただいても大丈夫です。
-          </p>
-        </div>
-      </div>
-
-      <!-- チャネルカード -->
-      <div class="channel-cards">
-
-        <!-- LINE -->
-        <div class="channel-card reveal">
-          <span class="channel-label">主受付 / PRIMARY</span>
-          <h2 class="channel-name">LINEで相談する</h2>
-          <p class="channel-desc">
-            現場の合間など、短いやり取りで進めたい方はLINEが便利です。<br>
-            お友だち追加後、そのままメッセージをお送りください。
-          </p>
-          <a href="https://lin.ee/qzJWOPt" class="btn btn-primary" aria-label="LINEで相談する">
-            LINEで相談する
-            <span class="btn-arrow" aria-hidden="true"></span>
-          </a>
-        </div>
-
-        <!-- Google Form -->
-        <div class="channel-card reveal">
-          <span class="channel-label">補助受付 / SUB</span>
-          <h2 class="channel-name">フォームから相談する</h2>
-          <p class="channel-desc">
-            内容を文章で落ち着いて整理して送りたい方はGoogleフォームをご利用ください。
-          </p>
-          <a href="https://forms.gle/uVugUN9DErMQBZPXA" class="btn btn-ghost" aria-label="フォームから相談する">
-            フォームから相談する
-            <span class="btn-arrow" aria-hidden="true"></span>
-          </a>
-        </div>
-
-      </div>
-
-      <!-- 補足：整理前でも相談OK -->
-      <div class="contact-notes reveal">
-        <div class="contact-notes-inner">
-          <h3 class="contact-notes-title">内容が整理できていなくても大丈夫です</h3>
-          <p class="contact-notes-body">
-            「何から始めればいいか分からない」という段階でもご相談いただけます。<br>
-            まずはお気軽にご連絡ください。
-          </p>
-        </div>
-      </div>
-
-      <!-- 送信後の流れ -->
-      <div class="after-steps reveal">
-        <h3 class="after-steps-title">送信後の流れ</h3>
-        <ol class="after-steps-list" role="list">
-          <li>内容を確認します</li>
-          <li>原則、翌営業日以内（土日祝を除く）に返信します</li>
-          <li>対応できるか・どう進めるか（HP診断 / 受付整理 / 制作相談）をご案内します</li>
-        </ol>
-        <p class="after-steps-note">ご相談だけで終わっても大丈夫です。無理な売り込みはしません。</p>
-      </div>
-
-      <!-- 対応情報 -->
-      <div class="response-info reveal">
+<main id="main" class="subpage-main">
+<section class="page-hero"><div class="wrap"><nav class="breadcrumb" aria-label="パンくず"><a href="index.html">HOME</a><span aria-hidden="true">/</span><span>CONTACT</span></nav><div class="page-heading-grid"><div><p class="section-kicker">LET’S TALK</p><h1>まずは、お話を<br>聞かせてください。</h1></div><p>「何から始めればいいか分からない」<br>そんな段階でも大丈夫です。<br>いまの状況に合う進め方を、一緒に考えます。</p></div></div></section>
+<section class="contact-page-content"><div class="wrap"><div class="contact-page-grid"><div class="contact-channels"><article class="contact-channel primary-channel"><span class="channel-kicker">01 / LINE</span><h2>短いやり取りで、気軽に。</h2><p>現場の合間など、スマホから相談したい方はこちら。<br>友だち追加後、そのままメッセージをお送りください。</p><a class="btn btn-white" href="https://lin.ee/qzJWOPt">LINEで相談する <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a><span class="channel-note">主な受付窓口 / 初回相談無料</span></article><article class="contact-channel"><span class="channel-kicker">02 / CONTACT FORM</span><h2>文章で、落ち着いて伝える。</h2><p>内容をまとめて送りたい方は、Googleフォームをご利用ください。整理できている範囲で構いません。</p><a class="btn btn-ghost" href="https://forms.gle/uVugUN9DErMQBZPXA">フォームから相談する <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></article></div><aside class="message-note" aria-labelledby="message-title"><p class="section-kicker">YOUR FIRST MESSAGE</p><h2 id="message-title">最初は、この3つだけ。</h2><ol><li><span>01</span><div><h3>業種</h3><p>例：塗装工事 / 行政書士</p></div></li><li><span>02</span><div><h3>いまの状況</h3><p>例：サイトがない /<br>あるけれど見直したい</p></div></li><li><span>03</span><div><h3>相談したいこと</h3><p>例：HP診断を受けたい /<br>まず話を聞きたい</p></div></li></ol><p class="message-note-bottom">全部そろっていなくても大丈夫です。HP診断をご希望の方は、「HP診断を希望」とだけお送りいただいても構いません。</p></aside></div>
+<div class="contact-after"><div><p class="section-kicker">WHAT HAPPENS NEXT</p><h2>ご連絡いただいた、その後は。</h2><ol class="contact-steps"><li><span>01</span><div><h3>内容を確認します</h3><p>現在の状況と、ご希望を確認します。</p></div></li><li><span>02</span><div><h3>文章でご返信します</h3><p>原則、翌営業日以内（土日祝を除く）に返信します。</p></div></li><li><span>03</span><div><h3>進め方をご案内します</h3><p>対応できるか、HP診断・受付整理・制作相談のどこから始めるかをご案内します。</p></div></li></ol><p class="contact-after-note">ご相談だけで終わっても大丈夫です。無理な売り込みはしません。</p></div><div class="contact-information"><h2>受付・返信について</h2><div class="response-info reveal">
         <dl>
           <div class="info-row">
             <dt>受付</dt>
@@ -168,22 +72,8 @@
             <dd>LINE・フォームのみ（電話・Zoom・対面での打ち合わせは行っていません）</dd>
           </div>
         </dl>
-      </div>
-
-      <!-- 注意事項 -->
-      <p class="contact-caution reveal">
-        ※ この送信のみで、正式なお申込みや契約が成立するものではありません。<br>
-        ※ ご相談内容の秘密は厳守します。
-      </p>
-
-      <!-- プライバシー案内 -->
-      <p class="privacy-note reveal">
-        ご連絡いただいた内容は、ご返信およびお見積りの検討のために利用します。<br>
-        個人情報の取扱いについては、<a href="privacy-policy.html">プライバシーポリシー</a>をご確認ください。
-      </p>
-
-      <!-- 運営者情報 -->
-      <div class="operator-info reveal">
+      </div><p class="fine-print">この送信のみで、正式なお申込みや契約が成立するものではありません。ご相談内容の秘密は厳守します。</p><p class="fine-print">ご連絡いただいた内容は、ご返信およびお見積りの検討のために利用します。個人情報の取扱いは、<a href="privacy-policy.html">プライバシーポリシー</a>をご確認ください。</p></div></div>
+<details class="operator-disclosure"><summary>運営者情報<span class="plus" aria-hidden="true"></span></summary><div class="operator-info reveal">
         <h3 class="operator-title">運営者情報</h3>
         <dl>
           <div class="info-row">
@@ -207,22 +97,9 @@
             <dd>原則、翌営業日以内（土日祝を除く）</dd>
           </div>
         </dl>
-      </div>
-
-    </div>
-  </section>
-
+      </div></details></div></section>
 </main>
-
-<footer class="site-footer">
-  <span class="footer-legal">
-    本サイトの掲載内容は予告なく変更する場合があります。<br>
-    正式な料金・納期・作業範囲は、ヒアリングおよび個別のお見積りをもって確定します。
-  </span>
-  <p class="footer-links"><a href="privacy-policy.html">プライバシーポリシー</a></p>
-  <small>&copy; 2026 國分Web製作所</small>
-</footer>
-
-<script src="assets/js/contact.js"></script>
+<footer class="site-footer"><div class="wrap"><div class="footer-top"><div><a href="index.html" class="brand" aria-label="國分Web製作所 トップへ"><span class="brand-symbol" aria-hidden="true"></span><span class="brand-wordmark"><span class="brand-mark">國分Web製作所</span><span class="brand-sub">KOKUBUN WEB</span></span></a><p class="footer-tagline">いい仕事を、伝わるかたちに。栃木県佐野市から、全国へ。</p></div><nav class="footer-nav" aria-label="フッターナビゲーション"><a href="index.html#services">サービス</a><a href="index.html#works">制作実績</a><a href="contact.html">お問い合わせ</a><a href="privacy-policy.html">プライバシーポリシー</a></nav></div><div class="footer-bottom"><p class="footer-legal">本サイトの掲載内容は予告なく変更する場合があります。<br>正式な料金・納期・作業範囲は、ヒアリングおよび個別のお見積りをもって確定します。</p><small class="footer-copy">© 2026 KOKUBUN WEB</small></div></div></footer>
+<script src="assets/js/index.js?v=20260916.1" defer></script>
 </body>
 </html>

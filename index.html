@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="#f6f8fc">
 <title>國分Web製作所｜建設業・士業のHP制作・HP診断（栃木県佐野市）</title>
 <meta name="description" content="栃木県佐野市の國分Web製作所。地方の建設業・士業向けに、問い合わせ前の分かりにくさを減らす軽いホームページと受付導線を設計します。入口は5,500円のHP診断。LINE・フォームで非対面・テキストのまま進められます。">
 <meta name="google-site-verification" content="n1qeGJcCmf1rLO3jdQZsXGyyVNafVVrD6Wid2rvIql0" />
@@ -81,416 +82,99 @@
 <link rel="manifest" href="site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500;700&family=Noto+Sans+JP:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="assets/css/index.css">
+<link rel="stylesheet" href="assets/css/common.css?v=20260916.1">
+<link rel="stylesheet" href="assets/css/index.css?v=20260916.1">
+<link rel="stylesheet" href="assets/css/hero.css?v=20260916.1">
 </head>
 <body>
-
-<!-- ======================================================
-     Header
-====================================================== -->
+<a class="skip-link" href="#main">本文へ移動</a>
 <header class="site-header" id="siteHeader">
-  <a href="index.html" class="brand" aria-label="國分Web製作所 トップへ">
-    <span class="brand-mark">國分Web製作所</span>
-    <span class="brand-sub">SANO — TOCHIGI</span>
-  </a>
-  <a href="https://lin.ee/qzJWOPt" class="header-cta" aria-label="LINEで相談する">
-    LINEで相談
-    <span class="btn-arrow" aria-hidden="true"></span>
-  </a>
+  <div class="wrap header-inner">
+    <a href="index.html" class="brand" aria-label="國分Web製作所 トップへ"><span class="brand-symbol" aria-hidden="true"></span><span class="brand-wordmark"><span class="brand-mark">國分Web製作所</span><span class="brand-sub">KOKUBUN WEB</span></span></a>
+    <nav class="desktop-nav" aria-label="メインナビゲーション"><a href="#services">サービス</a><a href="#works">制作実績</a><a href="#price">料金</a><a href="#about">製作所について</a></nav>
+    <a href="contact.html" class="header-cta">無料で相談する <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+    <button class="menu-toggle" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="mobileNav" hidden><span class="menu-icon" aria-hidden="true"></span></button>
+  </div>
+  <nav class="mobile-nav" id="mobileNav" aria-label="モバイルナビゲーション" hidden><a href="#services">サービス</a><a href="#works">制作実績</a><a href="#price">料金</a><a href="#flow">ご相談の流れ</a><a href="#about">製作所について</a><a href="contact.html">お問い合わせ</a></nav>
 </header>
-
-<main>
-
-  <!-- ======================================================
-       Section 1 : First View
-  ====================================================== -->
-  <section class="hero" aria-label="ファーストビュー">
-    <div class="wrap">
-      <div class="hero-inner">
-
-        <p class="eyebrow">建設業・士業のためのWeb設計</p>
-
-        <h1 class="hero-title">
-          問い合わせ前の<br>分かりにくさを、<br>整えます。
-        </h1>
-
-        <p class="hero-sub">
-          地方の建設業・士業向けに、軽くて分かりやすいホームページと、<br>
-          LINE・フォームの受付導線を設計します。
-        </p>
-
-        <p class="hero-meta">
-          <span>栃木県佐野市</span>
-          <span class="dot" aria-hidden="true"></span>
-          <span>オンライン全国対応</span>
-        </p>
-
-        <div class="cta-row" id="cta">
-          <a href="https://lin.ee/qzJWOPt" class="btn btn-primary" aria-label="LINEで相談する">
-            LINEで相談する
-            <span class="btn-arrow" aria-hidden="true"></span>
-          </a>
-          <a href="https://forms.gle/uVugUN9DErMQBZPXA" class="btn btn-ghost" aria-label="フォームから相談する">
-            フォームから相談する
-            <span class="btn-arrow" aria-hidden="true"></span>
-          </a>
-        </div>
-
-        <a class="hero-entry" href="#shindan">
-          <span class="hero-entry-label">いきなり制作依頼は、いりません</span>
-          <span class="hero-entry-text">まずは HP診断（5,500円）から始められます</span>
-          <span class="btn-arrow" aria-hidden="true"></span>
-        </a>
-
-        <p class="hero-note">
-          LINE・フォームは24時間受付 / 原則、翌営業日以内に返信します
-        </p>
-
+<main id="main">
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="hero-eyebrow">建設業・士業のためのWeb製作所</p>
+        <h1 id="hero-title"><span>いい仕事を、</span><span class="hero-emphasis">伝わるかたちに。</span></h1>
+        <p class="hero-description">あなたの仕事を、まだ知らない人へ。<br>ホームページと受付まわりを整えて、<br>相談前の「分かりにくい」を減らします。</p>
+        <div class="hero-actions" id="cta"><a class="btn btn-primary" href="#shindan">まずはHP診断から <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a><a href="#services" class="text-link">サービスを見る <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></div>
+        <p class="hero-note">初回のご相談は無料。LINE・フォームで気軽にどうぞ。</p>
+      </div>
+      <div class="hero-visual">
+        <img class="hero-image" src="assets/img/studio-desk.webp" alt="構成を考えるための紙と製図道具を並べた机のイメージ" width="1122" height="1402" fetchpriority="high">
+        <span class="hero-visual-caption" aria-hidden="true">THOUGHTFULLY DESIGNED. CLEARLY COMMUNICATED.</span>
+        <a class="hero-feature" href="#shindan"><span><span class="hero-feature-kicker">A SMALL FIRST STEP</span><span class="hero-feature-title">HP・受付窓口の診断</span><span class="hero-feature-meta">10項目の点検 / PDFレポート</span></span><span class="hero-feature-price"><small>¥</small>5,500<small> 税込</small></span><span class="hero-feature-arrow"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></span></a>
       </div>
     </div>
-    <span class="scroll-cue" aria-hidden="true"></span>
-  </section>
-
-  <!-- ======================================================
-       Section 2 : 誰向けか
-  ====================================================== -->
-  <section class="who" aria-label="こんな会社・事務所のためのサービスです">
-    <div class="wrap">
-
-      <div class="section-head reveal">
-        <p class="section-kicker">01 / FOR</p>
-        <h2 class="section-title">こんな会社・事務所の<br>ためのサービスです</h2>
-      </div>
-
-      <div class="who-grid">
-
-        <article class="who-card reveal">
-          <p class="who-tag">建設業のみなさま</p>
-          <p class="who-sub">電気設備・外構・塗装・防水・管工事・リフォームなど、地域密着の施工会社</p>
-          <ul class="who-list" role="list">
+    <div class="hero-bottom"><p class="hero-meta"><span>栃木県佐野市</span><span>オンライン全国対応</span><span>LINE・フォームで完結</span></p><a class="hero-scroll" href="#services">SCROLL TO EXPLORE <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></div>
+  </div>
+</section>
+<section class="section services-overview" id="services" aria-labelledby="services-title">
+  <div class="wrap">
+    <div class="section-top"><div class="section-head"><p class="section-kicker">01 / WHAT WE DO</p><h2 class="section-title" id="services-title">必要なところから、<br>ひとつずつ整える。</h2></div><p class="section-intro">ホームページを作ることも、その前の整理も。<br>いまの状況に合わせて、ちょうどよい進め方をご提案します。</p></div>
+    <div class="service-grid">
+      <a class="service-card" href="#shindan"><span class="service-index">01 <span>DIAGNOSIS</span></span><h3>まず、現状を知る。</h3><p>今のホームページと受付窓口を、お客さんの目線で点検します。</p><div class="service-card-bottom"><span>HP・受付窓口の診断</span><span class="round-arrow"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></span></div></a>
+      <a class="service-card" href="#pack"><span class="service-index">02 <span>WEB DESIGN</span></span><h3>サイトごと、整える。</h3><p>情報の整理からデザイン・公開まで。軽くて分かりやすいホームページを。</p><div class="service-card-bottom"><span>ホームページ制作</span><span class="round-arrow"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></span></div></a>
+      <a class="service-card" href="#support"><span class="service-index">03 <span>COMMUNICATION</span></span><h3>相談の入口を、変える。</h3><p>今のサイトを活かして、FAQや受付案内、返信の文章を見直します。</p><div class="service-card-bottom"><span>受付まわりの整理・保守</span><span class="round-arrow"><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></span></div></a>
+    </div>
+    <div class="audience-section"><div class="audience-heading"><p class="section-kicker">DESIGNED FOR YOUR BUSINESS</p><h3>専門的な仕事ほど、<br>伝わる説明が必要だから。</h3></div><div class="audience-grid"><article class="audience-card"><div class="audience-top"><span class="audience-number">01</span><h3>建設業のみなさま</h3></div><p class="who-sub">電気設備・外構・塗装・防水・管工事・リフォームなど、地域密着の施工会社</p><ul class="who-list" role="list">
             <li>「小さい工事でも頼めるの？」と、毎回電話で聞かれている</li>
             <li>施工事例に何を載せればいいか分からない</li>
             <li>見積までの流れが伝わらず、問い合わせが途中で止まる</li>
-          </ul>
-          <p class="who-answer">
-            現場の写真をLINEで送るだけで相談が始まる形に、受付から整えます。
-          </p>
-        </article>
-
-        <article class="who-card reveal">
-          <p class="who-tag">士業のみなさま</p>
-          <p class="who-sub">行政書士・税理士・社労士・司法書士などの事務所</p>
-          <ul class="who-list" role="list">
+          </ul><p class="audience-answer">現場の写真をLINEで送るだけで相談が始まる形へ。受付の案内から整えます。</p></article><article class="audience-card"><div class="audience-top"><span class="audience-number">02</span><h3>士業のみなさま</h3></div><p class="who-sub">行政書士・税理士・社労士・司法書士などの事務所</p><ul class="who-list" role="list">
             <li>何を相談できる事務所なのか、うまく伝わっていない</li>
             <li>相談者に「何を用意すればいいか」を毎回説明している</li>
             <li>難しい言葉が多く、問い合わせのハードルが上がっている</li>
-          </ul>
-          <p class="who-answer">
-            「誰の、どんな相談に乗れるか」を、初めての相談者にも伝わる形へ整理します。必要な専門用語のうち、初めての相談者に分かりにくい可能性があるものには、短い説明を添えるか、分かる言葉に言い換えます。
-          </p>
-        </article>
-
-        <article class="who-card reveal">
-          <p class="who-tag">その他の小規模事業者のみなさま</p>
-          <p class="who-sub">建設業・士業以外でも、次のような条件に当てはまる事業者の方はご相談いただけます。</p>
-          <ul class="who-list" role="list">
+          </ul><p class="audience-answer">「誰の、どんな相談に乗れるか」を明確に。専門用語は分かる言葉に言い換え、必要な説明を添えます。</p></article></div></div>
+    <details class="disclosure audience-more" ><summary>建設業・士業以外の方も、ご相談いただけます<span class="plus" aria-hidden="true"></span></summary><div class="disclosure-body"><p class="who-sub">建設業・士業以外でも、次のような条件に当てはまる事業者の方はご相談いただけます。</p><ul class="who-list" role="list">
             <li>ホームページは会社案内やサービス紹介が中心</li>
             <li>頻繁な更新（ブログ・ニュース等）は必要ない</li>
             <li>ネットショップ・予約システム・会員機能は不要</li>
             <li>LINE・フォームでのやり取りで進行できる</li>
-          </ul>
-          <p class="who-answer">
+          </ul><p class="who-answer">
             上記に当てはまるかどうか分からない場合も、まずはご相談ください。対応できるかどうかをお返しします。
-          </p>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ======================================================
-       Section 3 : WHY｜この仕事の原点と対象業種の理由
-  ====================================================== -->
-  <section class="profile" aria-label="分かる形にして、はじめて届く。">
-    <div class="wrap">
-
-      <div class="section-head reveal">
-        <p class="section-kicker">02 / WHY</p>
-        <h2 class="section-title">分かる形にして、<br>はじめて届く。</h2>
-      </div>
-
-      <p class="profile-close reveal">
-        必要な情報を、必要な人が使える形へ。
-      </p>
-
-      <div class="profile-body reveal">
-        <p>
-          地方自治体の職員だった頃、奨学資金を必要としていた家庭から「説明が難しくて分からない」「役場が怖い」という声を聞きました。制度があっても届かないことがある。この経験が、いまの仕事の原点の一つです。
-        </p>
-        <p>
-          行政実務では、用語の言い換え、説明順の組み替え、手続の整理に取り組んできました。現在はプレインランゲージ（必要な人が情報を見つけ、理解し、利用できる状態を目指す考え方）や情報アーキテクチャ（情報の分類・配置を整えて分かりやすくする設計）も学びながらWeb制作へ活かしています。媒体は変わっても、複雑な情報を必要な人が使える形へ整理するという問題設定は変わっていません。
-        </p>
-        <p>
-          自治体勤務の中で建設関連の入札・契約・予算管理にも関わりました。建設技術の専門家ではありませんが、発注する側として何を確認し判断材料にするかを経験しています。
-        </p>
-      </div>
-
-      <div class="caps-note reveal">
-        <h3 class="cap-title">なぜ建設業・士業なのか</h3>
-        <p class="cap-body">
-          建設業と士業には、専門家と依頼者で持っている知識に差が生じやすい（情報の非対称性）という共通した構造があります。加えて、信用財的サービス（credence service＝依頼した仕事の判断や品質が適切だったかを依頼者自身では十分に評価しにくいサービス）としての側面もあります。<br><br>
-          士業では、専門家の判断を依頼者自身では十分に評価しにくい場面があります。建設業では完成後に確認できる部分もある一方、工事の必要性や見えない部分の施工品質など、専門的に判断しにくい場合があります。<br><br>
-          だからこそ、依頼前に確認できる情報――対応範囲、費用の考え方、準備するもの、進め方、資格・実績等――を分かりやすく示しておくことに意味があります。國分Web製作所が扱うのは、その確認可能な情報を見つけやすく、理解しやすく整理することです。ただし、工事品質や専門家の判断そのものをWebで保証・評価するわけではありません。
-        </p>
-      </div>
-
-      <p class="reasons-close reveal">
-        では、具体的にどんな整理をするのか。次のセクションで説明します。
-      </p>
-
-    </div>
-  </section>
-
-  <!-- ======================================================
-       Section 4 : 何をする人か
-  ====================================================== -->
-  <section class="caps" aria-label="國分Web製作所がやること">
-    <div class="wrap">
-
-      <div class="section-head reveal">
-        <p class="section-kicker">03 / WHAT</p>
-        <h2 class="section-title">國分Web製作所が<br>やること</h2>
-      </div>
-
-      <p class="section-lead reveal">
-        ホームページを「新しく作る」だけの仕事ではありません。<br>
-        問い合わせ前に、仕事を頼む人・相談する人が「何を頼めるか・何を準備するか」で迷う状態と、会社・事務所側が受付で同じ説明や確認を繰り返す状態の両方を、今ある情報の整理で扱います。<br><br>
-        相談する側が確認しやすく、受ける側も案内しやすい状態にするため、説明整理・受付整理・見積前整理の3つを、國分Web製作所が行う整理作業の軸としています。
-      </p>
-
-      <ol class="caps-list" role="list">
-        <li class="cap reveal">
-          <span class="cap-num">01</span>
-          <h3 class="cap-title">説明整理</h3>
-          <p class="cap-body">
-            地域・業種・強みをトップ画面に配置し、<br>
-            誰向けのサービスかを明示します。
-          </p>
-        </li>
-        <li class="cap reveal">
-          <span class="cap-num">02</span>
-          <h3 class="cap-title">受付整理</h3>
-          <p class="cap-body">
-            よくある質問・問い合わせの流れ・料金の考え方を整えます。<br>
-            電話で同じ説明を繰り返さなくて済む状態を作ります。
-          </p>
-        </li>
-        <li class="cap reveal">
-          <span class="cap-num">03</span>
-          <h3 class="cap-title">見積前整理</h3>
-          <p class="cap-body">
-            相談に必要な情報・書類・手順を事前に案内します。<br>
-            「何を準備すればいいか分からない」をなくします。
-          </p>
-        </li>
-      </ol>
-
-      <div class="caps-note reveal">
-        やり取りはLINE・フォームのみ。現場や業務の合間に、スマホから進められます。<br>
-        対応エリアはオンライン全国です。
-      </div>
-    </div>
-  </section>
-
-  <!-- ======================================================
-       Section 5 : 進め方の全体像
-  ====================================================== -->
-  <section class="path" id="flow" aria-label="進め方の全体像">
-    <div class="wrap">
-
-      <div class="section-head reveal">
-        <p class="section-kicker">04 / HOW</p>
-        <h2 class="section-title">いきなり制作依頼は、<br>いりません</h2>
-      </div>
-
-      <p class="section-lead reveal">
-        相談から始めて、必要なぶんだけ進める形にしています。<br>
-        売り込みはしません。
-      </p>
-
-      <ol class="path-list" role="list">
-        <li class="path-step reveal">
-          <span class="path-no">STEP 1</span>
-          <h3 class="path-title">まず相談する<span class="path-price">無料</span></h3>
-          <p class="path-body">
-            LINEまたはフォームで、業種と状況を分かる範囲で送るだけ。<br>
-            内容を確認して、対応できるか・どう進めるかをご案内します。
-          </p>
-        </li>
-        <li class="path-step reveal">
-          <span class="path-no">STEP 2</span>
-          <h3 class="path-title">HP診断を受ける<span class="path-price">5,500円</span></h3>
-          <p class="path-body">
-            今のサイトと受付窓口を10項目で点検し、改善の方向をレポートでお返しします（納期1週間）。
-          </p>
-        </li>
-        <li class="path-step reveal">
-          <span class="path-no">STEP 3</span>
-          <h3 class="path-title">進み方を選ぶ</h3>
-          <p class="path-body">
-            診断レポートの最後に、3つの進み方をご案内します。どれを選ぶかは自由です。
-          </p>
-          <ul class="path-choices" role="list">
-            <li>レポートを見て、自分で直す</li>
-            <li>受付まわりの文章・案内だけ依頼する</li>
-            <li>3ページ制作に進む</li>
-          </ul>
-        </li>
-      </ol>
-
-      <p class="path-note reveal">
-        ※ まだホームページがない場合は、診断を挟まず、最初から制作のご相談で大丈夫です。<br>
-        ※ 制作に進む場合は、診断の内容をそのまま要件整理に引き継ぎます。<br>
-        ※ 診断だけで終わっても問題ありません。
-      </p>
-    </div>
-  </section>
-
-  <!-- ======================================================
-       Section 6 : 入口商品｜HP診断
-  ====================================================== -->
-  <section class="services" id="shindan" aria-label="入口商品 HP・受付窓口のスポット診断">
-    <div class="wrap">
-
-      <div class="section-head reveal">
-        <p class="section-kicker">05 / FIRST STEP</p>
-        <h2 class="section-title">まずはここから。<br>HP・受付窓口のスポット診断</h2>
-      </div>
-
-      <p class="section-lead reveal">
-        今あるホームページと受付窓口を、お客さん目線で点検します。<br>
-        ダメ出しの羅列ではなく、「どこで迷いやすいか」「何を足すと相談しやすくなるか」を整理して、改善の方向をレポートでお返しします。
-      </p>
-
-      <article class="svc-card reveal">
-        <span class="svc-tag">入口 / まず現状を知る</span>
-        <h3 class="svc-title">HP・受付窓口のスポット診断</h3>
-
-        <p class="svc-desc" style="margin-bottom:16px;">診断に含まれるもの</p>
-        <ul class="svc-check" role="list">
+          </p></div></details>
+  </div>
+</section>
+<section class="section diagnosis-section" id="shindan" aria-labelledby="diagnosis-title">
+  <div class="wrap">
+    <div class="diagnosis-grid">
+      <div class="diagnosis-copy"><p class="section-kicker">02 / A SMALL FIRST STEP</p><h2 class="section-title" id="diagnosis-title">作り直す、その前に。<br>まずはHP診断から。</h2><p class="diagnosis-description">どこで迷うのか。何があると相談しやすいのか。<br>今のサイトと受付窓口を点検し、<br>優先して整えたいところを見つけます。</p><p class="diagnosis-price"><span>¥</span>5,500<small>税込</small></p><div class="diagnosis-meta"><span>納期 1週間</span><span>PDF 3〜5ページ</span></div><a class="btn btn-white" href="https://lin.ee/qzJWOPt">LINEでHP診断を相談する <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a><p class="diagnosis-note">「HP診断を希望」とだけ送っていただければ大丈夫です。</p></div>
+      <div class="diagnosis-panel"><div class="diagnosis-panel-head"><span>お客さんの目線で、10項目を点検</span><span class="label">CHECK POINTS</span></div><ol class="diagnosis-checks"><li><span>01</span><div><h3>必要な情報が、見つかるか。</h3><p>対応内容・地域・費用の考え方</p></div></li><li><span>02</span><div><h3>初めての人にも、伝わるか。</h3><p>説明の順番・言葉・スマホでの読みやすさ</p></div></li><li><span>03</span><div><h3>安心して、相談できるか。</h3><p>許可・資格・実績・対応する人の情報</p></div></li><li><span>04</span><div><h3>次に何をすればよいか。</h3><p>相談の入口・必要な準備・送信後の案内</p></div></li></ol><details class="disclosure diagnosis-details" ><summary>診断に含まれる内容を見る<span class="plus" aria-hidden="true"></span></summary><div class="disclosure-body"><ul class="svc-check" role="list">
           <li>10項目×3段階の点検（見せ方・導線・信頼情報・スマホ対応など）</li>
           <li>お客さんから見た第一印象と、優先して整えたい箇所（1〜2点）</li>
           <li>具体的な改善の方向</li>
           <li>発注者目線のチェック（許可番号の掲載位置・有資格者の載せ方など）</li>
           <li>小さなAI活用アイデア（1〜2件）</li>
           <li>今後の進め方の3択（自分で直す / 受付整理だけ依頼 / 3ページ制作）</li>
-        </ul>
-
-        <p class="svc-sample-note">
+        </ul><p class="svc-sample-note">
           ※ 業種に応じて、建設業では工種・対象用途・施工地域、士業では対象・費用・流れ・準備・相談・対応者を確認します。
-        </p>
-
-        <dl class="svc-meta">
-          <div><dt>価格</dt><dd>5,500円（税込）</dd></div>
-          <div><dt>納期</dt><dd>1週間</dd></div>
-          <div><dt>納品</dt><dd>PDF 3〜5ページ</dd></div>
-        </dl>
-
-        <div class="svc-sample">
-          <h4 class="svc-sample-title">実際の診断レポートのサンプル</h4>
-          <div class="svc-sample-body">
-            <p>
-              株式会社サクラ工業様のご許可をいただき、実際の診断レポートをサンプルとして公開しています。
-            </p>
-            <p>
-              欠点を並べたものではなく、初めて見るお客さんが問い合わせ前にどこで迷いやすいか、何を足すと相談しやすくなるかを整理した例です。
-            </p>
-          </div>
-          <a
-            href="assets/docs/sakura-hp-diagnosis-sample.pdf"
-            class="btn btn-ghost svc-sample-btn"
-            target="_blank"
-            rel="noopener noreferrer"
-            type="application/pdf"
-            aria-label="株式会社サクラ工業様のHP診断サンプルPDFを新しいタブで開く"
-          >
-            サンプルPDFを見る
-          </a>
-          <p class="svc-sample-note">
-            ※ PDFファイル（5ページ）が新しいタブで開きます。<br>
-            ※ サンプルは、株式会社サクラ工業様の許可を得て公開しています。
-          </p>
-        </div>
-
-        <div class="cta-row svc-cta">
-          <a href="https://lin.ee/qzJWOPt" class="btn btn-primary" aria-label="LINEでHP診断を申し込む">
-            LINEでHP診断を申し込む
-            <span class="btn-arrow" aria-hidden="true"></span>
-          </a>
-          <a href="https://forms.gle/uVugUN9DErMQBZPXA" class="btn btn-ghost" aria-label="フォームから申し込む">
-            フォームから申し込む
-            <span class="btn-arrow" aria-hidden="true"></span>
-          </a>
-        </div>
-        <p class="svc-micro">
-          「HP診断を希望」とだけお送りいただければ、確認したいことをこちらから順にご案内します。
-        </p>
-      </article>
-
+        </p></div></details></div>
     </div>
-  </section>
-
-  <!-- ======================================================
-       Section 7 : 主力商品｜整理パック
-  ====================================================== -->
-  <section class="pack-sec" id="pack" aria-label="主力商品 お問い合わせ前・見積前整理パック">
-    <div class="wrap">
-
-      <div class="section-head reveal">
-        <p class="section-kicker">06 / MAIN SERVICE</p>
-        <h2 class="section-title">サイトごと整えるなら。<br>お問い合わせ前・見積前整理パック</h2>
-      </div>
-
-      <p class="section-lead reveal">
-        「何をどう相談すればいいか分からない」を減らすホームページを、構成の設計から公開までまとめて制作します。<br>
-        お客様からは、目的・伝えたい内容・避けたい方向・参考サイトなどを伝えていただきます。それをもとに、情報の並べ方・見せ方・スマホでの読みやすさなどの設計判断は國分が行います。<br>
-        建設業・士業のどちらにも対応しています。
-      </p>
-
-      <div class="pack-grid reveal">
-        <div class="pack-col">
-          <p class="pack-col-head">1ページ</p>
-          <p class="pack-col-sub">名刺代わり</p>
-          <p class="pack-col-price">55,000<span>円</span></p>
-          <ul class="plan-col-list">
-            <li>納期目安 2週間</li>
-            <li>修正 3回まで</li>
-          </ul>
-        </div>
-        <div class="pack-col is-reco">
-          <p class="pack-col-reco">おすすめ</p>
-          <p class="pack-col-head">3ページ</p>
-          <p class="pack-col-sub">トップ / サービス / お問い合わせ</p>
-          <p class="pack-col-price">88,000<span>円</span></p>
-          <ul class="plan-col-list">
-            <li>納期目安 3週間</li>
-            <li>修正 3回まで</li>
-          </ul>
-        </div>
-        <div class="pack-col">
-          <p class="pack-col-head">5ページ</p>
-          <p class="pack-col-sub">情報量強化</p>
-          <p class="pack-col-price">165,000<span>円</span></p>
-          <ul class="plan-col-list">
-            <li>納期目安 4週間</li>
-            <li>修正 3回まで</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="spec-cols reveal">
+    <div class="sample-strip"><div><p class="sample-title">診断レポートを、実際に見てみる。</p><p>株式会社サクラ工業様の許可を得て、実際のレポートを公開しています。</p></div><a href="assets/docs/sakura-hp-diagnosis-sample.pdf" class="sample-link" target="_blank" rel="noopener noreferrer" type="application/pdf">サンプルPDFを見る <span>5ページ・新しいタブで開きます</span><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></div>
+  </div>
+</section>
+<section class="section pricing-section" id="price" aria-labelledby="pricing-title">
+  <div class="wrap">
+    <div class="section-top" id="pack"><div class="section-head"><p class="section-kicker">03 / WEB DESIGN & PRICING</p><h2 class="section-title" id="pricing-title">伝えることに合わせて、<br>ちょうどよい大きさで。</h2></div><p class="section-intro">お問い合わせ前・見積前整理パック。<br>情報の整理からデザイン、スマホ対応、公開までをまとめて。料金はすべて税込みです。</p></div>
+    <div class="pricing-grid">
+      <article class="price-card"><p class="plan-kicker">SMALL START</p><h3>1ページ<span>まずは名刺代わりに</span></h3><p class="plan-price"><small>¥</small>55,000</p><p class="plan-description">会社の内容と連絡先を、<br>1枚で確認できるホームページ。</p><ul class="plan-features"><li>1ページに情報を集約</li><li>納期目安：2週間</li><li>修正：3回まで</li></ul><a class="btn btn-ghost" href="contact.html">このプランを相談する <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></article>
+      <article class="price-card recommended"><span class="recommended-label">おすすめのプラン</span><p class="plan-kicker">STANDARD</p><h3>3ページ<span>サービスを、きちんと伝える</span></h3><p class="plan-price"><small>¥</small>88,000</p><p class="plan-description">会社のこと、サービス、相談窓口。<br>必要な情報を、迷わない順番に。</p><ul class="plan-features"><li>トップ / サービス / お問い合わせ</li><li>納期目安：3週間</li><li>修正：3回まで</li></ul><a class="btn btn-primary" href="contact.html">このプランを相談する <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></article>
+      <article class="price-card"><p class="plan-kicker">MORE DETAIL</p><h3>5ページ<span>実績や専門性も、しっかりと</span></h3><p class="plan-price"><small>¥</small>165,000</p><p class="plan-description">施工事例や対応分野など、<br>伝えたい情報が多い事業者の方へ。</p><ul class="plan-features"><li>内容に合わせた5ページ構成</li><li>納期目安：4週間</li><li>修正：3回まで</li></ul><a class="btn btn-ghost" href="contact.html">このプランを相談する <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></article>
+    </div>
+    <div class="plan-assurances"><span>スマホでの読みやすさを重視</span><span>動くデモで確認</span><span>月額保守契約なし</span><span>納品後の一括請求</span></div>
+    <p class="fine-print pricing-footnote">納期は素材・原稿が揃った時点からの目安です。修正1回＝まとめてお送りいただいた修正指示一式。独自ドメイン等の維持費は別途かかります。</p>
+    <details class="disclosure" ><summary>制作に含まれる内容・料金と制作条件<span class="plus" aria-hidden="true"></span></summary><div class="disclosure-body"><div class="spec-cols">
         <div class="spec-col">
           <p class="spec-col-head">建設業向けに標準で整える内容</p>
           <ul class="plan-col-list">
@@ -517,52 +201,24 @@
             <li>よくある質問・代表プロフィール</li>
           </ul>
         </div>
-      </div>
-
-      <div class="caps-note reveal">
-        全プラン共通：スマホ表示を最優先に設計（小さい画面でも崩れないことを確認します）。<br>
-        複雑なシステムを使わない軽い作りのため、月額保守契約なしで運用しやすい構成です。<br>
-        制作中は、実際にスマホで触れる「動くデモ画面」で確認しながら進めます。
-      </div>
-
-      <p class="path-note reveal">
-        ※ 価格はすべて税込みです。<br>
-        ※ 修正1回＝まとめてお送りいただいた修正指示一式です。<br>
-        ※ 納期は、素材・原稿が揃った時点からの目安です。
-      </p>
-
-      <div class="cta-row svc-cta reveal">
-        <a href="https://lin.ee/qzJWOPt" class="btn btn-primary" aria-label="LINEで制作の相談をする">
-          LINEで制作の相談をする
-          <span class="btn-arrow" aria-hidden="true"></span>
-        </a>
-        <a href="https://forms.gle/uVugUN9DErMQBZPXA" class="btn btn-ghost" aria-label="フォームから相談する">
-          フォームから相談する
-          <span class="btn-arrow" aria-hidden="true"></span>
-        </a>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ======================================================
-       Section 8 : 補助サービス
-  ====================================================== -->
-  <section class="sub-services" aria-label="補助サービス">
-    <div class="wrap">
-
-      <div class="section-head reveal">
-        <p class="section-kicker">07 / SUB SERVICE</p>
-        <h2 class="section-title">サイトはそのまま、<br>一部だけ整えたい方へ</h2>
-      </div>
-
-      <p class="section-lead reveal">
-        「いきなりサイトを丸ごと作り直すのは、まだ早い」<br>
-        そう感じている方向けの補助商品です。
-      </p>
-
-      <!-- 受付スッキリ設計パック -->
-      <article class="sub-svc reveal">
+      </div><div class="caps-note">
+          1ページ・3ページ・5ページの選び方<br>
+          ・1ページ：載せたい情報がまだ少なく、会社の内容と連絡先を名刺代わりに1枚で確認できる状態にしたい場合。<br>
+          ・3ページ（おすすめ）：会社の内容・サービス・問い合わせを分けて説明したい場合。問い合わせ前に確認されることを一通り載せられます。<br>
+          ・5ページ：施工事例や対応分野など載せたい項目が多く、3ページに収めると1ページあたりの情報量が多くなりすぎる場合。
+        </div><div class="price-notes">
+        ※ 上記はすべて税込みの標準価格です。<br>
+        ※ ページ追加、大幅な仕様変更、オプション追加がある場合は別途お見積りとなります。<br>
+        ※ 正式なお見積りは、ヒアリング後にご提示します。<br>
+        ※ お支払いは、納品後の一括請求です。制作前・制作中のお支払いはありません（お支払期日は原則、納品月の翌月末です）。<br>
+        ※ 素材・原稿の準備が遅れた場合、納期は延長となります。<br>
+        ※ 修正1回 ＝ まとめてお送りいただいた修正指示一式です。<br>
+        ※ サイトへの問い合わせ増加・集客成果の保証はいたしません。<br>
+         根拠のある設計と、相談前の情報整理で土台を整えることが、この仕事の範囲です。
+      </div></div></details>
+    <div class="support-heading" id="support"><p class="section-kicker">SUPPORT & OPTIONS</p><h3>一部だけ整えたい方へ。</h3><p>サイト全体の作り直しが必要でなければ、必要なところだけ。</p></div>
+    <div class="support-grid"><div class="support-item"><p class="support-label">受付まわりの文章・案内</p><h3>受付スッキリ設計パック</h3><p class="support-price">¥33,000<small>〜 / 税込</small></p><p>FAQ、受付案内、返信テンプレートを整理。今のサイトはそのままに、相談しやすい入口へ。</p></div><div class="support-item"><p class="support-label">公開後の更新・修正</p><h3>スポット保守</h3><p class="support-price">¥5,500<small>〜 / 件・税込</small></p><p>文章の変更、写真の差し替え、事例の追加など。保守契約なしで、必要な時だけ依頼できます。</p></div></div>
+    <details class="disclosure" ><summary>受付整理の3プラン・スポット保守・オプションの詳細<span class="plus" aria-hidden="true"></span></summary><div class="disclosure-body"><article class="sub-svc">
         <span class="svc-tag is-sub">補助 / PACK</span>
         <h3 class="sub-svc-title">受付スッキリ設計パック</h3>
         <p class="sub-svc-body">
@@ -571,8 +227,8 @@
           サイトは今のまま、受付まわりの分かりにくさを先に解消したい方向けです。
         </p>
 
-        <p class="sub-svc-body" style="margin-bottom:12px; font-weight:500; color:var(--ink);">こんな方に向いています</p>
-        <ul class="plan-col-list" style="margin:0 0 20px;">
+        <p class="sub-svc-body">こんな方に向いています</p>
+        <ul class="plan-col-list">
           <li>サイト全体を、まだ作り直したくない</li>
           <li>同じ質問への電話や返信が繰り返されている</li>
           <li>問い合わせ前に、何を伝えればよいかを整理したい</li>
@@ -611,7 +267,7 @@
           </div>
         </div>
 
-        <p class="sub-svc-body" style="margin-bottom:12px; font-weight:500; color:var(--ink);">納品物について</p>
+        <p class="sub-svc-body">納品物について</p>
         <p class="sub-svc-body">
           GoogleドキュメントまたはPDF（文章データ）で納品します。<br>
           内容は、FAQ案・受付案内文・必要情報リスト・返信テンプレ・修正指示書です。<br>
@@ -625,10 +281,7 @@
           ※ 修正1回 ＝ まとめてお送りいただいた修正指示一式を指します。<br>
           ※ 新規項目の追加・方針の大幅な変更は別途お見積りとなります。
         </p>
-      </article>
-
-      <!-- スポット保守 -->
-      <article class="sub-svc reveal">
+      </article><article class="sub-svc">
         <span class="svc-tag is-sub">補助 / SPOT</span>
         <h3 class="sub-svc-title">スポット保守</h3>
         <p class="sub-svc-body">
@@ -638,17 +291,14 @@
         <dl class="svc-meta">
           <div><dt>価格</dt><dd>5,500円（税込）／件〜</dd></div>
         </dl>
-        <p class="sub-svc-body" style="margin-bottom:0;">
+        <p class="sub-svc-body">
           対応例：文章の変更・追加、お知らせ・事例の追加、ボタンや電話番号の修正、写真の差し替えなど。
         </p>
         <p class="sub-svc-note">
           ※ 対応可否は内容によります。まずご相談ください。<br>
           ※ 大規模な改修は別途お見積りとなります。
         </p>
-      </article>
-
-      <!-- オプション一覧 -->
-      <article class="sub-svc reveal">
+      </article><article class="sub-svc">
         <span class="svc-tag is-sub">OPTION</span>
         <h3 class="sub-svc-title">必要なものを、必要な分だけ追加できます</h3>
 
@@ -678,107 +328,7 @@
             <td>44,000円</td>
             <td>募集要項・仕事内容・応募導線</td>
           </tr>
-        </table>
-      </article>
-
-    </div>
-  </section>
-
-  <!-- ======================================================
-       Section 9 : 料金一覧
-  ====================================================== -->
-  <section class="price-sec" id="price" aria-label="料金と制作条件">
-    <div class="wrap">
-
-      <div class="section-head reveal">
-        <p class="section-kicker">08 / PRICE</p>
-        <h2 class="section-title">料金と制作条件</h2>
-      </div>
-
-      <p class="section-lead reveal">
-        すべて税込みの表示です。<br>
-        料金は「まず確認する・サイト本体を整えるもの」と「サイトはそのままで、必要なところだけ整えるもの」の2つに分けて掲載しています。<br>
-        修正回数・納期・成果についての条件も、ここで確認してください。
-      </p>
-
-      <div class="price-tier reveal">
-        <p class="spec-col-head">A｜まず確認する・サイト本体を整える</p>
-
-        <table class="price-table">
-          <tr class="price-group"><th colspan="2">入口｜まず現状を知る</th></tr>
-          <tr>
-            <th>HP・受付窓口のスポット診断</th>
-            <td>5,500円</td>
-          </tr>
-          <tr class="price-group"><th colspan="2">制作｜サイトをまとめて整える</th></tr>
-          <tr>
-            <th>整理パック 1ページ（名刺代わり）</th>
-            <td>55,000円</td>
-          </tr>
-          <tr>
-            <th>整理パック 3ページ（おすすめ）</th>
-            <td>88,000円</td>
-          </tr>
-          <tr>
-            <th>整理パック 5ページ（情報量強化）</th>
-            <td>165,000円</td>
-          </tr>
-        </table>
-
-        <div class="caps-note">
-          1ページ・3ページ・5ページの選び方<br>
-          ・1ページ：載せたい情報がまだ少なく、会社の内容と連絡先を名刺代わりに1枚で確認できる状態にしたい場合。<br>
-          ・3ページ（おすすめ）：会社の内容・サービス・問い合わせを分けて説明したい場合。問い合わせ前に確認されることを一通り載せられます。<br>
-          ・5ページ：施工事例や対応分野など載せたい項目が多く、3ページに収めると1ページあたりの情報量が多くなりすぎる場合。
-        </div>
-      </div>
-
-      <div class="price-tier reveal">
-        <p class="spec-col-head">B｜サイトはそのまま、必要なところだけ整える</p>
-
-        <table class="price-table">
-          <tr class="price-group"><th colspan="2">受付整理｜文章と導線だけ整える</th></tr>
-          <tr>
-            <th>受付スッキリ 簡易</th>
-            <td>33,000円</td>
-          </tr>
-          <tr>
-            <th>受付スッキリ 標準</th>
-            <td>66,000円</td>
-          </tr>
-          <tr>
-            <th>受付スッキリ 強化</th>
-            <td>88,000円</td>
-          </tr>
-          <tr class="price-group"><th colspan="2">公開後｜必要な時だけ</th></tr>
-          <tr>
-            <th>スポット保守</th>
-            <td>5,500円〜 / 件</td>
-          </tr>
-          <tr class="price-group"><th colspan="2">オプション｜必要な分だけ追加する</th></tr>
-          <tr>
-            <th>施工事例整理</th>
-            <td>11,000円 / 件</td>
-          </tr>
-          <tr>
-            <th>原稿代筆</th>
-            <td>16,500円 / ページ</td>
-          </tr>
-          <tr>
-            <th>画像選定</th>
-            <td>5,500円〜</td>
-          </tr>
-          <tr>
-            <th>LINE連携設定</th>
-            <td>5,500円〜</td>
-          </tr>
-          <tr>
-            <th>採用ページ追加</th>
-            <td>44,000円</td>
-          </tr>
-        </table>
-
-        <div class="caps-note">
+        </table><div class="caps-note">
           受付スッキリ 簡易・標準・強化の選び方<br>
           ・簡易：よくある質問と受付案内文を、まず最小限そろえたい場合。<br>
           ・標準：質問への回答に加えて、問い合わせまでの導線と返信文まで整えたい場合。既存サイトへの修正指示書が付きます。<br>
@@ -790,307 +340,36 @@
           ・両方が必要な場合は、作業ごとに分けてお見積りします。施工事例整理だけのご依頼も可能です。<br>
           ・※ 施工事例を載せるための型（項目・見せ方）づくりは、整理パックに含まれます。
         </div>
-      </div>
-
-      <div class="price-notes reveal">
-        ※ 上記はすべて税込みの標準価格です。<br>
-        ※ ページ追加、大幅な仕様変更、オプション追加がある場合は別途お見積りとなります。<br>
-        ※ 正式なお見積りは、ヒアリング後にご提示します。<br>
-        ※ お支払いは、納品後の一括請求です。制作前・制作中のお支払いはありません（お支払期日は原則、納品月の翌月末です）。<br>
-        ※ 素材・原稿の準備が遅れた場合、納期は延長となります。<br>
-        ※ 修正1回 ＝ まとめてお送りいただいた修正指示一式です。<br>
-        ※ サイトへの問い合わせ増加・集客成果の保証はいたしません。<br>
-        &emsp;根拠のある設計と、相談前の情報整理で土台を整えることが、この仕事の範囲です。
-      </div>
-    </div>
-  </section>
-
-  <!-- ======================================================
-       Section 10 : 実績
-  ====================================================== -->
-  <section class="works" aria-label="制作実績">
-    <div class="wrap">
-
-      <div class="section-head reveal">
-        <p class="section-kicker">09 / WORKS</p>
-        <h2 class="section-title">制作実績</h2>
-      </div>
-
-      <p class="section-lead reveal">
-        現在、こちらで制作・公開した事例を1件掲載しています。<br>
-        限られた情報・素材の中で、会社情報を確認しやすい形に整理した初期HPです。
-      </p>
-
-      <article class="works-card reveal">
-        <h3 class="works-card-title">株式会社サクラ工業（埼玉県川口市）</h3>
-        <p class="works-card-sub">電気設備工事における外構工事</p>
-        <a href="https://www.sakura-kogyo.jp/" class="works-card-url" target="_blank" rel="noopener">https://www.sakura-kogyo.jp/</a>
-
-        <p class="works-card-scope">
-          新設された建設会社について、会社概要・事業内容・所在地・連絡先を確認できる初期HPを制作しました。
+      </article></div></details>
+  </div>
+</section>
+<section class="section works-section" id="works" aria-labelledby="works-title">
+  <div class="wrap"><div class="section-top"><div class="section-head"><p class="section-kicker">04 / SELECTED WORK</p><h2 class="section-title" id="works-title">仕事の輪郭を、<br>確かに伝える。</h2></div><p class="section-intro">制作・公開した事例をご紹介します。<br>限られた素材から、必要な会社情報を確認しやすいホームページへ。</p></div>
+    <article class="work-card"><div class="work-identity"><div class="work-cover-top"><span>PROJECT 01</span><span>CORPORATE WEBSITE</span></div><div><p class="work-english" aria-hidden="true">SAKURA<br>KOGYO.</p><h3>株式会社サクラ工業</h3></div><div class="work-cover-bottom"><span>CONSTRUCTION</span><span>KAWAGUCHI, SAITAMA</span></div></div><div class="work-content"><span class="label">建設業 / コーポレートサイト</span><h3>会社のことを、<br>確認できる場所をつくる。</h3><p>埼玉県川口市で、電気設備工事における外構工事を行う会社。新設された会社の概要・事業内容・所在地・連絡先を確認できる初期ホームページを制作しました。</p><p>経営事項審査や取引先・関係者の確認に必要な会社情報を、Web上で確認できる状態にすることを目的としています。</p><p class="work-scope">担当：設計 / 文章作成 / デザイン / スマホ対応 / 公開・表示改善</p><a href="https://www.sakura-kogyo.jp/" class="text-link" target="_blank" rel="noopener noreferrer">公開サイトを見る <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></div></article>
+    <p class="fine-print work-note">独自ドメイン取得の補助、Google検索の基本設定、SNSで共有された時の表示設定も担当。同社の<a href="assets/docs/sakura-hp-diagnosis-sample.pdf" target="_blank" rel="noopener noreferrer">HP診断レポート（PDF・新しいタブ）</a>も公開しています。</p>
+  </div>
+</section>
+<section class="section about-section" id="about" aria-labelledby="about-title">
+  <div class="wrap"><div class="about-grid"><div class="about-heading"><p class="section-kicker">05 / ABOUT THE STUDIO</p><h2 class="section-title" id="about-title">分かる形にして、<br>はじめて届く。</h2><p class="about-signature">國分 祐貴<span>國分Web製作所 / 栃木県佐野市</span></p></div><div class="about-copy"><p class="about-lead">難しいことを、整理して、<br>前に進められる形にする。</p><p>前職は、地方自治体の職員。6年間、教育委員会で入札・契約・予算書類の実務に携わっていました。</p><p>「説明が難しくて分からない」。制度を必要としていた方の声から、情報はあるだけでは届かないことを学びました。その経験が、いまのWeb制作の原点です。</p><p>仕事を依頼する人が何を知りたいのか。どこで迷ってしまうのか。一つひとつ整理しながら、あなたの仕事が伝わる形を考えます。</p><div class="about-social"><a href="https://note.com/kokubun_web1210" target="_blank" rel="noopener noreferrer">note <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a><a href="https://www.facebook.com/yuki.kokubun.16/?locale=ja_JP" target="_blank" rel="noopener noreferrer">Facebook <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a><a href="https://x.com/aile175icl47249" target="_blank" rel="noopener noreferrer">X <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></div></div></div>
+    <div class="principles"><div><span>01</span><h3>根拠のある設計を。</h3><p>建設業22社・士業24事務所を独自の確認項目で調査。診断と制作の判断材料にしています。</p></div><div><span>02</span><h3>現場の合間に、進める。</h3><p>やり取りはLINE・フォームの文章で完結。電話・Zoom・対面の打ち合わせは行いません。</p></div><div><span>03</span><h3>必要な分だけ、丁寧に。</h3><p>相談だけでも、診断だけでも。状況に合う進め方を一緒に考えます。</p></div></div>
+    <details class="disclosure" ><summary>製作所の考え方・プロフィールを詳しく読む<span class="plus" aria-hidden="true"></span></summary><div class="disclosure-body"><div class="profile-body">
+        <p>
+          地方自治体の職員だった頃、奨学資金を必要としていた家庭から「説明が難しくて分からない」「役場が怖い」という声を聞きました。制度があっても届かないことがある。この経験が、いまの仕事の原点の一つです。
         </p>
-
-        <p class="works-card-scope">
-          制作目的は、集客を強く狙うことではなく、経営事項審査・取引先確認・関係者確認に必要な会社情報をWeb上で確認できる状態にすることです。
+        <p>
+          行政実務では、用語の言い換え、説明順の組み替え、手続の整理に取り組んできました。現在はプレインランゲージ（必要な人が情報を見つけ、理解し、利用できる状態を目指す考え方）や情報アーキテクチャ（情報の分類・配置を整えて分かりやすくする設計）も学びながらWeb制作へ活かしています。媒体は変わっても、複雑な情報を必要な人が使える形へ整理するという問題設定は変わっていません。
         </p>
-
-        <p class="works-card-scope">
-          担当範囲：サイトの設計、文章作成、見た目のデザイン、スマホ対応、公開作業、独自ドメイン取得の補助、Google検索に向けた基本設定、SNSで共有された時の表示設定、公開後の表示改善まで担当しました。
+        <p>
+          自治体勤務の中で建設関連の入札・契約・予算管理にも関わりました。建設技術の専門家ではありませんが、発注する側として何を確認し判断材料にするかを経験しています。
         </p>
-      </article>
-
-      <p class="works-outro reveal">
-        「なぜこの構成にしたか」「どの情報を優先して載せたか」は、根拠とあわせてご相談時に説明できます。<br>
-        同社のHP診断レポートも、<a href="#shindan" class="works-outro-link">サンプルとして公開しています</a>。
-      </p>
-    </div>
-  </section>
-
-  <!-- ======================================================
-       Section 11 : 安心材料
-  ====================================================== -->
-  <section class="reasons" aria-label="安心して相談していただくために">
-    <div class="wrap">
-
-      <div class="section-head reveal">
-        <p class="section-kicker">10 / TRUST</p>
-        <h2 class="section-title">安心して相談して<br>いただくために</h2>
-      </div>
-
-      <ol class="reasons-list">
-        <li class="reason reveal">
-          <span class="reason-num">01</span>
-          <h3 class="reason-title">月額保守契約なしで運用しやすい構成です</h3>
-          <p class="reason-body">
-            複雑なシステムを使わない、軽い設計にしています。そのため、月額の保守契約がなくても運用できます。<br>
-            （※サイトのアドレスを維持するための費用（年額数千円程度）は別途かかります）
-          </p>
-        </li>
-        <li class="reason reveal">
-          <span class="reason-num">02</span>
-          <h3 class="reason-title">動くデモ画面で途中経過を確認できます</h3>
-          <p class="reason-body">
-            紙の提案書ではなく、実際にスマホで触れる状態で確認しながら進めます。「思っていたのと違う」を、完成前に解消できます。
-          </p>
-        </li>
-        <li class="reason reveal">
-          <span class="reason-num">03</span>
-          <h3 class="reason-title">調査結果を診断と制作に使っています</h3>
-          <p class="reason-body">
-            建設業22社と士業24事務所の公式サイトを別々に、自社で決めた確認項目を使って調査しました。サイト上の情報がどこまで説明されているかを確認し、その結果と確認項目をHP診断やWeb制作の判断材料にしています。
-          </p>
-        </li>
-        <li class="reason reveal">
-          <span class="reason-num">04</span>
-          <h3 class="reason-title">見た目だけでなく、問い合わせ前の説明整理まで行います</h3>
-          <p class="reason-body">
-            HP制作だけでなく、FAQ・受付導線・問い合わせ前に必要な情報整理まで設計します。「作った後、どう相談してもらうか」まで含めて考えたサイトになります。
-          </p>
-        </li>
-        <li class="reason reveal">
-          <span class="reason-num">05</span>
-          <h3 class="reason-title">LINE・フォームで、現場の合間に進められます</h3>
-          <p class="reason-body">
-            電話や対面の打ち合わせは行いません。LINEかフォームで、お好きなタイミングにやり取りできます。現場から写真を送るだけで相談が始まります。
-          </p>
-        </li>
-        <li class="reason reveal">
-          <span class="reason-num">06</span>
-          <h3 class="reason-title">発注者が確認しやすい情報整理の勘所があります</h3>
-          <p class="reason-body">
-            元・地方自治体職員として、入札・契約・予算書類の実務を6年経験しました。「仕事を依頼する側が何を見て判断するか」を理解した上で整理できます。
-          </p>
-        </li>
-      </ol>
-
-      <p class="reasons-close reveal">
-        できない約束はしません。<br>
-        その代わり、根拠のある設計と整理で、<br>
-        相談前の土台を整えます。
-      </p>
-    </div>
-  </section>
-
-  <!-- ======================================================
-       Section 12 : 相談後の流れ
-  ====================================================== -->
-  <section class="flow-sec" aria-label="相談後の流れ">
-    <div class="wrap">
-
-      <div class="section-head reveal">
-        <p class="section-kicker">11 / FLOW</p>
-        <h2 class="section-title">相談したら、<br>何が起きるか</h2>
-      </div>
-
-      <h3 class="flow-block-title reveal">ご相談から診断・お見積りまで</h3>
-      <ol class="flow-list">
-        <li class="flow-step reveal">
-          <span class="flow-dot" aria-hidden="true"></span>
-          <h4 class="flow-step-title">1. LINEまたはフォームでご連絡</h4>
-          <p class="flow-step-body">業種・いまの状況・相談したいことを、分かる範囲でお送りください。</p>
-        </li>
-        <li class="flow-step reveal">
-          <span class="flow-dot" aria-hidden="true"></span>
-          <h4 class="flow-step-title">2. 内容を確認してご返信</h4>
-          <p class="flow-step-body">原則、翌営業日以内に返信します。対応できるか・どう進めるかをご案内します。</p>
-        </li>
-        <li class="flow-step reveal">
-          <span class="flow-dot" aria-hidden="true"></span>
-          <h4 class="flow-step-title">3. HP診断 または お見積り</h4>
-          <p class="flow-step-body">ご相談だけで終わっても大丈夫です。無理な売り込みはしません。</p>
-        </li>
-      </ol>
-
-      <h3 class="flow-block-title reveal">制作をご依頼いただく場合</h3>
-      <ol class="flow-list">
-        <li class="flow-step reveal">
-          <span class="flow-dot" aria-hidden="true"></span>
-          <h4 class="flow-step-title">1. お見積り・契約書への署名</h4>
-          <p class="flow-step-body">制作範囲・修正回数・納期・支払い条件を書面で確認します。</p>
-        </li>
-        <li class="flow-step reveal">
-          <span class="flow-dot" aria-hidden="true"></span>
-          <h4 class="flow-step-title">2. 素材・原稿のご準備</h4>
-          <p class="flow-step-body">ご契約後、素材・原稿が揃った時点が着手日となります。準備が難しい場合は、原稿代筆・画像選定のオプションも使えます。</p>
-        </li>
-        <li class="flow-step reveal">
-          <span class="flow-dot" aria-hidden="true"></span>
-          <h4 class="flow-step-title">3. 制作</h4>
-          <p class="flow-step-body">まず、ページ上部の見せ方や構成の方向性をA・Bの2案でお見せします。目的や伝えたい内容をふまえて方向性を選んでいただき、選んだ方向性でサイト全体を仕上げます。制作中は、動くデモ画面で途中経過を確認しながら進めます。</p>
-        </li>
-        <li class="flow-step reveal">
-          <span class="flow-dot" aria-hidden="true"></span>
-          <h4 class="flow-step-title">4. 修正（3回まで）</h4>
-          <p class="flow-step-body">修正1回 ＝ まとめてお送りいただいた修正指示一式です。</p>
-        </li>
-        <li class="flow-step reveal">
-          <span class="flow-dot" aria-hidden="true"></span>
-          <h4 class="flow-step-title">5. 最終確認・公開・ご請求</h4>
-          <p class="flow-step-body">最終確認の完了後に公開し、その後に請求書をお送りします。お支払期日は原則、納品月の翌月末です。公開後1か月は、軽微な修正を3回まで無料で対応します。</p>
-        </li>
-      </ol>
-
-      <p class="flow-notes reveal">
-        ※ 素材・原稿の提出が遅れた場合、納期はその分延長となります。<br>
-        ※ 修正回数を超えた分は、別途お見積りとなります。<br>
-        ※ 成果（問い合わせ増加等）の保証はいたしません。
-      </p>
-    </div>
-  </section>
-
-  <!-- ======================================================
-       Section 13 : よくある質問
-  ====================================================== -->
-  <section class="faq-sec" aria-label="よくある質問">
-    <div class="wrap">
-
-      <div class="section-head reveal">
-        <p class="section-kicker">12 / FAQ</p>
-        <h2 class="section-title">よくある質問</h2>
-      </div>
-
-      <ol class="faq-list">
-        <li class="faq-item reveal">
-          <p class="faq-q">初回の相談は無料ですか？</p>
-          <p class="faq-a">
-            はい、無料です。LINEまたはフォームからお気軽にご連絡ください。正式なお見積りは、ヒアリング後にご提示します。
-          </p>
-        </li>
-        <li class="faq-item reveal">
-          <p class="faq-q">LINEでは、最初に何を送ればいいですか？</p>
-          <p class="faq-a">
-            「業種」「いまの状況（サイトがない / あるけれど見直したい など）」「相談したいこと」の3つを、分かる範囲でお送りください。参考にしたいサイトがあればURLもどうぞ。全部そろっていなくても大丈夫です。
-          </p>
-        </li>
-        <li class="faq-item reveal">
-          <p class="faq-q">HP診断だけで終わってもいいですか？</p>
-          <p class="faq-a">
-            はい。診断レポートは、それだけで使える形でお渡しします。レポートの最後に「自分で直す / 受付整理だけ依頼 / 3ページ制作に進む」の3つの進み方をご案内しますが、どれを選ぶかは自由です。制作に進む場合は、診断内容をそのまま要件整理に引き継ぎます。
-          </p>
-        </li>
-        <li class="faq-item reveal">
-          <p class="faq-q">小さな会社・個人事業でも依頼できますか？</p>
-          <p class="faq-a">
-            はい。地域密着の小規模な会社・事務所が主なお客様です。品質維持のため同時進行数を絞って対応していますので、時期によってはお待ちいただく場合があります。
-          </p>
-        </li>
-        <li class="faq-item reveal">
-          <p class="faq-q">パソコンが苦手でも大丈夫ですか？</p>
-          <p class="faq-a">
-            大丈夫です。やり取りはすべてLINEまたはフォームで進めます。現場からスマホで写真を送るだけで相談が始められます。
-          </p>
-        </li>
-        <li class="faq-item reveal">
-          <p class="faq-q">写真や文章の準備ができていなくても相談できますか？</p>
-          <p class="faq-a">
-            相談だけなら、まったく問題ありません。「何を準備すればいいか分からない」という段階でもお気軽にどうぞ。ご契約後、素材・原稿が揃った時点で着手します。写真や文章の準備が難しい場合は、原稿代筆・画像選定のオプションも使えます。
-          </p>
-        </li>
-        <li class="faq-item reveal">
-          <p class="faq-q">お支払いはいつですか？</p>
-          <p class="faq-a">
-            納品後の一括請求です。制作前のお支払いはありません。納品時に請求書をお送りし、お支払期日は原則、納品月の翌月末です。
-          </p>
-        </li>
-        <li class="faq-item reveal">
-          <p class="faq-q">修正は何回までできますか？</p>
-          <p class="faq-a">
-            プランを問わず、3回までです。修正1回 ＝ まとめてお送りいただいた修正指示一式を指します。回数を超えた分は別途お見積りとなります。
-          </p>
-        </li>
-        <li class="faq-item reveal">
-          <p class="faq-q">公開後にサイトを更新したくなったらどうすればいいですか？</p>
-          <p class="faq-a">
-            スポット保守（5,500円〜 / 件）でご対応します。保守契約は不要です。必要な時だけご依頼いただけます。<br>
-            ※ ご自身での更新機能（ブログ等）は付いていませんので、更新は当方へのご依頼となります。
-          </p>
-        </li>
-        <li class="faq-item reveal">
-          <p class="faq-q">打ち合わせはどう進みますか？</p>
-          <p class="faq-a">
-            すべてLINEまたはフォームのテキストで進めます。電話・Zoom・対面の打ち合わせは行いません。現場の合間に、お好きなタイミングでやり取りできる形にしています。
-          </p>
-        </li>
-        <li class="faq-item reveal">
-          <p class="faq-q">問い合わせは増えますか？</p>
-          <p class="faq-a">
-            サイトへの問い合わせ増加や集客成果の保証はできません。相談前に必要な情報が分からず、相談を見送ってしまう状態を減らすことを目的に、相談前の情報を整理します。「問い合わせ前の土台を整える」が、この仕事の範囲です。
-          </p>
-        </li>
-        <li class="faq-item reveal">
-          <p class="faq-q">WordPressを使わない理由は何ですか？</p>
-          <p class="faq-a">
-            複雑なシステムを使わず、軽い作り（静的サイト ※あらかじめ用意した画面をそのまま表示する仕組み）で公開しています。この作りだと、月額の保守契約がなくても運用できます。ご自身での更新機能（ブログ等）は省いていますので、更新が必要な時はスポット保守（5,500円〜/件）で対応します。
-          </p>
-        </li>
-        <li class="faq-item reveal">
-          <p class="faq-q">建設業・士業以外でも依頼できますか？</p>
-          <p class="faq-a">
-            会社案内やサービス紹介が中心で、頻繁な更新やネットショップ等が不要なサイトであれば、建設業・士業以外の小規模事業者の方もご相談いただけます。対応できるかどうかは、ご相談内容を確認してお返しします。
-          </p>
-        </li>
-        <li class="faq-item reveal">
-          <p class="faq-q">デザインの方向性は、こちらで決める必要がありますか？</p>
-          <p class="faq-a">
-            一から考えていただく必要はありません。まず、ページ上部の見せ方や構成をA・Bの2方向でお見せします。見比べていただき、目的や伝えたい内容に合う方を選んでいただければ、その方向性でサイト全体を仕上げます。目的や伝えたい内容はお客様から、見せ方や構成の判断は國分が行います。
-          </p>
-        </li>
-      </ol>
-    </div>
-  </section>
-
-  <!-- ======================================================
-       Section 14 : プロフィール
-  ====================================================== -->
-  <section class="profile" aria-label="國分Web製作所について">
-    <div class="wrap">
-
-      <div class="section-head reveal">
-        <p class="section-kicker">13 / ABOUT</p>
-        <h2 class="section-title">國分Web製作所について</h2>
-      </div>
-
-      <div class="profile-body reveal">
+      </div><div class="caps-note">
+        <h3 class="cap-title">なぜ建設業・士業なのか</h3>
+        <p class="cap-body">
+          建設業と士業には、専門家と依頼者で持っている知識に差が生じやすい（情報の非対称性）という共通した構造があります。加えて、信用財的サービス（credence service＝依頼した仕事の判断や品質が適切だったかを依頼者自身では十分に評価しにくいサービス）としての側面もあります。<br><br>
+          士業では、専門家の判断を依頼者自身では十分に評価しにくい場面があります。建設業では完成後に確認できる部分もある一方、工事の必要性や見えない部分の施工品質など、専門的に判断しにくい場合があります。<br><br>
+          だからこそ、依頼前に確認できる情報――対応範囲、費用の考え方、準備するもの、進め方、資格・実績等――を分かりやすく示しておくことに意味があります。國分Web製作所が扱うのは、その確認可能な情報を見つけやすく、理解しやすく整理することです。ただし、工事品質や専門家の判断そのものをWebで保証・評価するわけではありません。
+        </p>
+      </div><div class="profile-body reveal">
         <p>
           栃木県佐野市を拠点に、地方の建設業・士業向けにWeb制作とサイト周りの整理をしています。オンラインで全国対応しています。
         </p>
@@ -1108,95 +387,139 @@
         <p>
           必要な専門用語は使いますが、説明なしで並べることはしません。初めての方に分かりにくい可能性がある専門用語には、その場で短い説明を添えるか、分かる言葉に言い換えてお伝えします。
         </p>
-      </div>
-
-      <p class="profile-close reveal">
-        難しいことを、整理して、<br>
-        前に進められる形にする。<br>
-        それだけを、丁寧にやっています。
-      </p>
-
-      <dl class="profile-info reveal">
-        <div><dt>屋号：</dt><dd>國分Web製作所</dd></div>
-        <div><dt>拠点：</dt><dd>栃木県佐野市（対応エリア：オンライン全国）</dd></div>
-        <div><dt>連絡方法：</dt><dd>LINE / フォーム（電話・対面打ち合わせは行っておりません）</dd></div>
-      </dl>
-
-      <p class="profile-links reveal">
-        <a href="https://note.com/kokubun_web1210" target="_blank" rel="noopener" aria-label="note">
-          <img src="assets/img/square.svg" alt="note">
-        </a>
-        <a href="https://www.facebook.com/yuki.kokubun.16/?locale=ja_JP" class="profile-link-facebook" target="_blank" rel="noopener" aria-label="Facebook">
-          <img src="assets/img/Facebook_Logo_Primary.png" alt="Facebook">
-        </a>
-        <a href="https://x.com/aile175icl47249" class="profile-link-x" target="_blank" rel="noopener" aria-label="X">
-          <img src="assets/img/logo.svg" alt="X">
-        </a>
-      </p>
-    </div>
-  </section>
-
-  <!-- ======================================================
-       Section 15 : お問い合わせ（CTA）
-  ====================================================== -->
-  <section class="contact" aria-label="まずはご相談ください">
-    <div class="wrap">
-
-      <div class="section-head reveal">
-        <p class="section-kicker">14 / CONTACT</p>
-        <h2 class="section-title">まずは、状況を<br>教えてください</h2>
-      </div>
-
-      <p class="contact-lead reveal">
-        まだ内容が固まっていなくても大丈夫です。<br>
-        内容を確認して、対応できるか・どう進めるかをお返しします。<br>
-        売り込みはしません。
-      </p>
-
-      <div class="msg-box reveal">
-        <p class="msg-box-title">最初のメッセージは、この3つだけで大丈夫です</p>
-        <ol class="msg-box-list" role="list">
-          <li><span>業種</span>例：塗装工事 / 行政書士</li>
-          <li><span>いまの状況</span>例：サイトがない / あるけれど見直したい</li>
-          <li><span>相談したいこと</span>例：HP診断を受けたい / まず話を聞きたい</li>
-        </ol>
-      </div>
-
-      <div class="cta-row reveal">
-        <a href="https://lin.ee/qzJWOPt" class="btn btn-primary" aria-label="LINEで相談する">
-          LINEで相談する
-          <span class="btn-arrow" aria-hidden="true"></span>
-        </a>
-        <a href="https://forms.gle/uVugUN9DErMQBZPXA" class="btn btn-ghost" aria-label="フォームから相談する">
-          フォームから相談する
-          <span class="btn-arrow" aria-hidden="true"></span>
-        </a>
-      </div>
-
-      <div class="contact-info reveal">
-        受付：24時間（LINE / フォーム）<br>
-        確認・返信時間：平日 9:00〜12:30<br>
-        返信目安：原則、翌営業日以内（土日祝を除く）<br><br>
-        ※営業時間外でもLINE・フォームの送信は可能です。<br>
-        内容を確認のうえ、翌営業日以内を目安に順番に返信します。<br>
-        ※品質維持のため、同時進行数を絞って対応しています。<br><br>
-        相談方法のくわしい案内は <a href="contact.html" class="contact-page-link">お問い合わせページ</a> をご覧ください。
-      </div>
-
-    </div>
-  </section>
+      </div><ol class="reasons-list">
+        <li class="reason">
+          <span class="reason-num">01</span>
+          <h3 class="reason-title">月額保守契約なしで運用しやすい構成です</h3>
+          <p class="reason-body">
+            複雑なシステムを使わない、軽い設計にしています。そのため、月額の保守契約がなくても運用できます。<br>
+            （※サイトのアドレスを維持するための費用（年額数千円程度）は別途かかります）
+          </p>
+        </li>
+        <li class="reason">
+          <span class="reason-num">02</span>
+          <h3 class="reason-title">動くデモ画面で途中経過を確認できます</h3>
+          <p class="reason-body">
+            紙の提案書ではなく、実際にスマホで触れる状態で確認しながら進めます。「思っていたのと違う」を、完成前に解消できます。
+          </p>
+        </li>
+        <li class="reason">
+          <span class="reason-num">03</span>
+          <h3 class="reason-title">調査結果を診断と制作に使っています</h3>
+          <p class="reason-body">
+            建設業22社と士業24事務所の公式サイトを別々に、自社で決めた確認項目を使って調査しました。サイト上の情報がどこまで説明されているかを確認し、その結果と確認項目をHP診断やWeb制作の判断材料にしています。
+          </p>
+        </li>
+        <li class="reason">
+          <span class="reason-num">04</span>
+          <h3 class="reason-title">見た目だけでなく、問い合わせ前の説明整理まで行います</h3>
+          <p class="reason-body">
+            HP制作だけでなく、FAQ・受付導線・問い合わせ前に必要な情報整理まで設計します。「作った後、どう相談してもらうか」まで含めて考えたサイトになります。
+          </p>
+        </li>
+        <li class="reason">
+          <span class="reason-num">05</span>
+          <h3 class="reason-title">LINE・フォームで、現場の合間に進められます</h3>
+          <p class="reason-body">
+            電話や対面の打ち合わせは行いません。LINEかフォームで、お好きなタイミングにやり取りできます。現場から写真を送るだけで相談が始まります。
+          </p>
+        </li>
+        <li class="reason">
+          <span class="reason-num">06</span>
+          <h3 class="reason-title">発注者が確認しやすい情報整理の勘所があります</h3>
+          <p class="reason-body">
+            元・地方自治体職員として、入札・契約・予算書類の実務を6年経験しました。「仕事を依頼する側が何を見て判断するか」を理解した上で整理できます。
+          </p>
+        </li>
+      </ol></div></details>
+  </div>
+</section>
+<section class="section flow-section" id="flow" aria-labelledby="flow-title">
+  <div class="wrap"><div class="section-top"><div class="section-head"><p class="section-kicker">06 / HOW WE WORK</p><h2 class="section-title" id="flow-title">相談から、一歩ずつ。</h2></div><p class="section-intro">最初から依頼内容が決まっていなくても大丈夫。<br>いまの状況を聞くところから始めます。</p></div>
+    <ol class="process-grid"><li><span class="process-number">01</span><h3>まずは、ご相談</h3><p>業種・いまの状況・相談したいことを、LINEかフォームで送るだけ。原則、翌営業日以内に返信します。</p><span class="process-tag">初回相談は無料</span></li><li><span class="process-number">02</span><h3>診断・お見積り</h3><p>今あるサイトはHP診断から。サイトがない方は、そのまま制作相談へ。内容に合わせてご案内します。</p><span class="process-tag">診断だけでもOK</span></li><li><span class="process-number">03</span><h3>制作・ご確認</h3><p>ご契約・素材の準備後に制作を開始。方向性を2案から選び、動くデモ画面で確認しながら進めます。</p><span class="process-tag">修正は3回まで</span></li><li><span class="process-number">04</span><h3>公開・その後も</h3><p>最終確認後に公開し、ご請求。公開後1か月は、軽微な修正を3回まで無料で対応します。</p><span class="process-tag">必要な時にスポット保守</span></li></ol>
+    <details class="disclosure" ><summary>ご相談から公開までの詳しい流れ・条件<span class="plus" aria-hidden="true"></span></summary><div class="disclosure-body"><h3 class="flow-block-title">ご相談から診断・お見積りまで</h3><ol class="flow-list">
+        <li class="flow-step">
+          <span class="flow-dot" aria-hidden="true"></span>
+          <h4 class="flow-step-title">1. LINEまたはフォームでご連絡</h4>
+          <p class="flow-step-body">業種・いまの状況・相談したいことを、分かる範囲でお送りください。</p>
+        </li>
+        <li class="flow-step">
+          <span class="flow-dot" aria-hidden="true"></span>
+          <h4 class="flow-step-title">2. 内容を確認してご返信</h4>
+          <p class="flow-step-body">原則、翌営業日以内に返信します。対応できるか・どう進めるかをご案内します。</p>
+        </li>
+        <li class="flow-step">
+          <span class="flow-dot" aria-hidden="true"></span>
+          <h4 class="flow-step-title">3. HP診断 または お見積り</h4>
+          <p class="flow-step-body">ご相談だけで終わっても大丈夫です。無理な売り込みはしません。</p>
+        </li>
+      </ol><h3 class="flow-block-title">制作をご依頼いただく場合</h3><ol class="flow-list">
+        <li class="flow-step">
+          <span class="flow-dot" aria-hidden="true"></span>
+          <h4 class="flow-step-title">1. お見積り・契約書への署名</h4>
+          <p class="flow-step-body">制作範囲・修正回数・納期・支払い条件を書面で確認します。</p>
+        </li>
+        <li class="flow-step">
+          <span class="flow-dot" aria-hidden="true"></span>
+          <h4 class="flow-step-title">2. 素材・原稿のご準備</h4>
+          <p class="flow-step-body">ご契約後、素材・原稿が揃った時点が着手日となります。準備が難しい場合は、原稿代筆・画像選定のオプションも使えます。</p>
+        </li>
+        <li class="flow-step">
+          <span class="flow-dot" aria-hidden="true"></span>
+          <h4 class="flow-step-title">3. 制作</h4>
+          <p class="flow-step-body">まず、ページ上部の見せ方や構成の方向性をA・Bの2案でお見せします。目的や伝えたい内容をふまえて方向性を選んでいただき、選んだ方向性でサイト全体を仕上げます。制作中は、動くデモ画面で途中経過を確認しながら進めます。</p>
+        </li>
+        <li class="flow-step">
+          <span class="flow-dot" aria-hidden="true"></span>
+          <h4 class="flow-step-title">4. 修正（3回まで）</h4>
+          <p class="flow-step-body">修正1回 ＝ まとめてお送りいただいた修正指示一式です。</p>
+        </li>
+        <li class="flow-step">
+          <span class="flow-dot" aria-hidden="true"></span>
+          <h4 class="flow-step-title">5. 最終確認・公開・ご請求</h4>
+          <p class="flow-step-body">最終確認の完了後に公開し、その後に請求書をお送りします。お支払期日は原則、納品月の翌月末です。公開後1か月は、軽微な修正を3回まで無料で対応します。</p>
+        </li>
+      </ol><p class="flow-notes">
+        ※ 素材・原稿の提出が遅れた場合、納期はその分延長となります。<br>
+        ※ 修正回数を超えた分は、別途お見積りとなります。<br>
+        ※ 成果（問い合わせ増加等）の保証はいたしません。
+      </p></div></details>
+  </div>
+</section>
+<section class="section faq-section" id="faq" aria-labelledby="faq-title"><div class="wrap faq-layout"><div class="section-head"><p class="section-kicker">07 / QUESTIONS & ANSWERS</p><h2 class="section-title" id="faq-title">気になることを、<br>先に解消。</h2><p class="faq-intro">よくあるご質問をまとめました。<br>ほかにも気になることがあれば、<a href="contact.html">お気軽にご相談ください。</a></p></div><div class="faq-list"><details class="faq-item"><summary><span class="faq-prefix" aria-hidden="true">Q.</span><span>初回の相談は無料ですか？</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer"><p class="faq-a">
+            はい、無料です。LINEまたはフォームからお気軽にご連絡ください。正式なお見積りは、ヒアリング後にご提示します。
+          </p></div></details><details class="faq-item"><summary><span class="faq-prefix" aria-hidden="true">Q.</span><span>LINEでは、最初に何を送ればいいですか？</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer"><p class="faq-a">
+            「業種」「いまの状況（サイトがない / あるけれど見直したい など）」「相談したいこと」の3つを、分かる範囲でお送りください。参考にしたいサイトがあればURLもどうぞ。全部そろっていなくても大丈夫です。
+          </p></div></details><details class="faq-item"><summary><span class="faq-prefix" aria-hidden="true">Q.</span><span>HP診断だけで終わってもいいですか？</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer"><p class="faq-a">
+            はい。診断レポートは、それだけで使える形でお渡しします。レポートの最後に「自分で直す / 受付整理だけ依頼 / 3ページ制作に進む」の3つの進み方をご案内しますが、どれを選ぶかは自由です。制作に進む場合は、診断内容をそのまま要件整理に引き継ぎます。
+          </p></div></details><details class="faq-item"><summary><span class="faq-prefix" aria-hidden="true">Q.</span><span>小さな会社・個人事業でも依頼できますか？</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer"><p class="faq-a">
+            はい。地域密着の小規模な会社・事務所が主なお客様です。品質維持のため同時進行数を絞って対応していますので、時期によってはお待ちいただく場合があります。
+          </p></div></details><details class="faq-item"><summary><span class="faq-prefix" aria-hidden="true">Q.</span><span>パソコンが苦手でも大丈夫ですか？</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer"><p class="faq-a">
+            大丈夫です。やり取りはすべてLINEまたはフォームで進めます。現場からスマホで写真を送るだけで相談が始められます。
+          </p></div></details><details class="faq-item"><summary><span class="faq-prefix" aria-hidden="true">Q.</span><span>写真や文章の準備ができていなくても相談できますか？</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer"><p class="faq-a">
+            相談だけなら、まったく問題ありません。「何を準備すればいいか分からない」という段階でもお気軽にどうぞ。ご契約後、素材・原稿が揃った時点で着手します。写真や文章の準備が難しい場合は、原稿代筆・画像選定のオプションも使えます。
+          </p></div></details><details class="faq-item"><summary><span class="faq-prefix" aria-hidden="true">Q.</span><span>お支払いはいつですか？</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer"><p class="faq-a">
+            納品後の一括請求です。制作前のお支払いはありません。納品時に請求書をお送りし、お支払期日は原則、納品月の翌月末です。
+          </p></div></details><details class="faq-item"><summary><span class="faq-prefix" aria-hidden="true">Q.</span><span>修正は何回までできますか？</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer"><p class="faq-a">
+            プランを問わず、3回までです。修正1回 ＝ まとめてお送りいただいた修正指示一式を指します。回数を超えた分は別途お見積りとなります。
+          </p></div></details><details class="faq-item"><summary><span class="faq-prefix" aria-hidden="true">Q.</span><span>公開後にサイトを更新したくなったらどうすればいいですか？</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer"><p class="faq-a">
+            スポット保守（5,500円〜 / 件）でご対応します。保守契約は不要です。必要な時だけご依頼いただけます。<br>
+            ※ ご自身での更新機能（ブログ等）は付いていませんので、更新は当方へのご依頼となります。
+          </p></div></details><details class="faq-item"><summary><span class="faq-prefix" aria-hidden="true">Q.</span><span>打ち合わせはどう進みますか？</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer"><p class="faq-a">
+            すべてLINEまたはフォームのテキストで進めます。電話・Zoom・対面の打ち合わせは行いません。現場の合間に、お好きなタイミングでやり取りできる形にしています。
+          </p></div></details><details class="faq-item"><summary><span class="faq-prefix" aria-hidden="true">Q.</span><span>問い合わせは増えますか？</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer"><p class="faq-a">
+            サイトへの問い合わせ増加や集客成果の保証はできません。相談前に必要な情報が分からず、相談を見送ってしまう状態を減らすことを目的に、相談前の情報を整理します。「問い合わせ前の土台を整える」が、この仕事の範囲です。
+          </p></div></details><details class="faq-item"><summary><span class="faq-prefix" aria-hidden="true">Q.</span><span>WordPressを使わない理由は何ですか？</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer"><p class="faq-a">
+            複雑なシステムを使わず、軽い作り（静的サイト ※あらかじめ用意した画面をそのまま表示する仕組み）で公開しています。この作りだと、月額の保守契約がなくても運用できます。ご自身での更新機能（ブログ等）は省いていますので、更新が必要な時はスポット保守（5,500円〜/件）で対応します。
+          </p></div></details><details class="faq-item"><summary><span class="faq-prefix" aria-hidden="true">Q.</span><span>建設業・士業以外でも依頼できますか？</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer"><p class="faq-a">
+            会社案内やサービス紹介が中心で、頻繁な更新やネットショップ等が不要なサイトであれば、建設業・士業以外の小規模事業者の方もご相談いただけます。対応できるかどうかは、ご相談内容を確認してお返しします。
+          </p></div></details><details class="faq-item"><summary><span class="faq-prefix" aria-hidden="true">Q.</span><span>デザインの方向性は、こちらで決める必要がありますか？</span><span class="plus" aria-hidden="true"></span></summary><div class="faq-answer"><p class="faq-a">
+            一から考えていただく必要はありません。まず、ページ上部の見せ方や構成をA・Bの2方向でお見せします。見比べていただき、目的や伝えたい内容に合う方を選んでいただければ、その方向性でサイト全体を仕上げます。目的や伝えたい内容はお客様から、見せ方や構成の判断は國分が行います。
+          </p></div></details></div></div></section>
+<section class="section contact-section" id="contact" aria-labelledby="contact-title"><div class="wrap"><div class="contact-grid"><div><p class="section-kicker">LET’S TALK</p><h2 class="section-title" id="contact-title">まだ、まとまって<br>いなくても大丈夫です。</h2><p class="contact-description">「何から始めたらいいか分からない」<br>そんなところから、お聞かせください。</p></div><div class="contact-actions"><p>まずは、いまの状況を教えてください。</p><a href="https://lin.ee/qzJWOPt" class="btn btn-white">LINEで相談する <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a><a href="https://forms.gle/uVugUN9DErMQBZPXA" class="btn btn-outline-white">フォームから相談する <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a><p class="contact-reply">24時間受付 / 原則、翌営業日以内に返信</p></div></div><div class="message-guide"><p>最初のメッセージは、この3つ。</p><ol><li><span>01</span>業種</li><li><span>02</span>いまの状況</li><li><span>03</span>相談したいこと</li></ol><a href="contact.html">相談方法を詳しく見る <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></div><p class="contact-hours">確認・返信：平日 9:00〜12:30（土日祝を除く）。品質維持のため、同時進行数を絞って対応しています。</p></div></section>
 
 </main>
-
-<footer class="site-footer">
-  <p class="footer-legal">
-    本サイトの掲載内容は予告なく変更する場合があります。<br>
-    正式な料金・納期・作業範囲は、ヒアリングおよび個別のお見積りをもって確定します。
-  </p>
-  <p class="footer-links"><a href="contact.html">お問い合わせ</a>　<a href="privacy-policy.html">プライバシーポリシー</a></p>
-  <small>&copy; 2026 國分Web製作所</small>
-</footer>
-
-<script src="assets/js/index.js"></script>
+<footer class="site-footer"><div class="wrap"><div class="footer-top"><div><a href="index.html" class="brand" aria-label="國分Web製作所 トップへ"><span class="brand-symbol" aria-hidden="true"></span><span class="brand-wordmark"><span class="brand-mark">國分Web製作所</span><span class="brand-sub">KOKUBUN WEB</span></span></a><p class="footer-tagline">いい仕事を、伝わるかたちに。栃木県佐野市から、全国へ。</p></div><nav class="footer-nav" aria-label="フッターナビゲーション"><a href="index.html#services">サービス</a><a href="index.html#works">制作実績</a><a href="contact.html">お問い合わせ</a><a href="privacy-policy.html">プライバシーポリシー</a></nav></div><div class="footer-bottom"><p class="footer-legal">本サイトの掲載内容は予告なく変更する場合があります。<br>正式な料金・納期・作業範囲は、ヒアリングおよび個別のお見積りをもって確定します。</p><small class="footer-copy">© 2026 KOKUBUN WEB</small></div></div></footer>
+<script src="assets/js/index.js?v=20260916.1" defer></script>
 </body>
 </html>
