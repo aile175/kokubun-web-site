@@ -1,0 +1,33 @@
+國分Web製作所 — favicon / OGP image generation
+Date: 2026-09-25
+Mode: built-in image_gen imagegen.
+
+Published assets:
+- favicon.svg, favicon.ico, favicon-96x96.png
+- apple-touch-icon.png, web-app-manifest-192x192.png, web-app-manifest-512x512.png
+- assets/img/ogp-kokubun-web-v2.png (1200 × 630)
+
+The favicon artwork and OGP layout, illustration and text were generated with imagegen. An initial icon with unwanted transparency was corrected with imagegen. Published derivatives use resizing and file-format conversion only. The SVG embeds the generated icon as PNG to preserve the same artwork across browser formats. Original full-resolution generations are retained in the image generation output directory.
+
+FAVICON INITIAL PROMPT
+Create a finished app icon / favicon for a small, thoughtful Japanese web design studio called Kokubun Web. This is an original logo-brand asset, a single square 1024 x 1024 canvas, not a presentation or mockup.
+Use a solid, uniform cobalt blue background, exactly #2452D6, covering the entire canvas edge to edge, square outside corners. In the center put ONE white geometric mark, abstractly inspired by the enclosure in the Japanese character 國 and a carefully organized page layout. The mark consists of a bold white square outline, and a separate bold white plus inside it whose intersection is slightly above and to the left of center, reminiscent of a simple architectural plan. The inner plus does not touch the outer square. The outer square occupies about 60 percent of the canvas width and height; all white strokes are thick, about 6 percent of canvas width. Ample clear blue space around and between strokes. Precise geometry, optically balanced, sharp flat vector-like edges, pure white #FFFFFF and cobalt blue only.
+This icon must stay recognizable at 16px and 32px and work inside a circular crop. Large simple forms, strong contrast, bold thickness. No letters, no legible text, no actual complex kanji, no tiny features, no diagonal strokes, no shadows, no gradients, no texture, no bevels, no border outside the icon, no extra symbols, no watermark. Deliver just the square icon artwork.
+
+FAVICON CORRECTION PROMPT
+Edit the provided artwork into a completely flat, fully OPAQUE square brand tile. Critical: DO NOT REMOVE THE BACKGROUND. The entire square canvas, including all four corners, is one perfectly solid cobalt blue #2452D6, opaque with alpha 255 everywhere. This is a printed blue square graphic, NOT a transparent isolated logo. Replace every transparent or black area and the entire cloudy glowing blue area with that same perfectly uniform solid cobalt blue. Remove all glow, halos, blur, texture, noise and gradients. Keep just the geometry of the existing WHITE square outline and the separate WHITE plus inside it, with slightly upper-left offset intersection, using clean solid white flat shapes with sharp edges. Pure blue and white only. The square outline should occupy 60% of the square canvas, centered, with generous blue margins and thick uniform white strokes readable at 16 pixels. Preserve the uncluttered geometric symbol. No text, no shadow, no mockup. Final deliverable is a solid blue rectangular picture with the simple white symbol, never transparency. Square aspect ratio.
+
+OGP PROMPT
+Create a polished finished social sharing card (Open Graph image) for the Japanese web design studio 國分Web製作所. Editorial graphic design, 1200 x 630 landscape aspect ratio 1.90476:1, fully opaque canvas. It must look like the modern small-business web studio's own carefully typeset brand communication, not a generic template.
+Composition: generous pale cool off-white #F6F8FC background on the left roughly 72% of the frame, and a rich flat cobalt-blue #2452D6 panel on the right 28%. Precisely aligned, airy grid. High contrast, beautifully legible Japanese sans-serif typography, modern Noto Sans JP style, thoughtful and professional. Keep all important text at least 55 pixels from edges. Plenty of whitespace.
+At upper left, a small simple cobalt geometric square outline containing a separate upper-left-offset plus sign, followed by the exact brand name "國分Web製作所" in dark navy. Beneath the brand name, much smaller spaced English text "KOKUBUN WEB".
+Main headline on the left, exact Japanese wording and line breaks, very large bold type:
+"いい仕事を、"
+"伝わるかたちに。"
+First line dark navy #15223A, second line cobalt blue #2452D6. No text cuts off or extends into the blue panel. This headline is the dominant element.
+Below it place this exact smaller dark-navy text, readable even in a social card thumbnail:
+"建設業・士業のホームページ制作・HP診断"
+At bottom left small restrained text:
+"栃木県佐野市 / オンライン全国対応"
+On the right blue panel, a tasteful photorealistic / paper-craft still life: one beautifully designed small white webpage card, with a few blue and light-gray wireframe blocks and lines, carefully arranged above a second white sheet, slightly rotated with soft natural shadows. A slim blue pencil can rest beside the sheets. The papers are generic layout sketches only, no legible text, no buttons, no device frames, no charts. A restrained hint of a fine blueprint grid on the blue area may reinforce careful information design. The paper/card motif communicates organizing information and crafting a website.
+Do not add any other text, no invented English titles, no badges, no URLs, no claims, no prices, no gradients across the whole image, no old-fashioned calligraphy, no busy decoration, no watermark. Accurate Japanese text is essential: 國 must use its traditional form, and 製作所 must be correct. The resulting flat rectangular image itself is the final share card. Do not show a framed poster mockup or social app UI.
