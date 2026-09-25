@@ -1,0 +1,40 @@
+/* Original demo collection, with previews of the actual pages. */
+.demos-section { background:#fff; border-top:1px solid var(--rule); }
+.demos-section .section-title span { display:inline-block; }
+.demos-section .section-intro { max-width:445px; }
+.demo-collection-note { margin:-20px 0 38px; color:var(--ink-3); font-size:.8125rem; }
+.demo-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:64px 40px; }
+.demo-card { min-width:0; }
+.demo-preview { display:block; overflow:hidden; aspect-ratio:8/5; padding:22px; background:#e7edf2; border:1px solid #dfe5eb; }
+.demo-card:nth-child(1) .demo-preview { background:#dfe5df; }
+.demo-card:nth-child(2) .demo-preview { background:#eae5e1; }
+.demo-card:nth-child(3) .demo-preview { background:#e1e8e1; }
+.demo-card:nth-child(4) .demo-preview { background:#e2e6ee; }
+.demo-preview img { width:100%; height:100%; object-fit:cover; object-position:top; box-shadow:0 6px 24px #14243717; transition:transform .35s ease; }
+.demo-preview:hover img { transform:translateY(-3px); }
+.demo-card-meta { display:flex; justify-content:space-between; align-items:center; gap:18px; margin:24px 0 13px; color:var(--ink-3); font-size:.75rem; }
+.demo-card-meta > span:first-child { color:var(--accent); font-weight:500; }
+.demo-card-meta > span:last-child { font-family:var(--f-num); letter-spacing:.08em; }
+.demo-card h3 { font-size:1.35rem; line-height:1.65; font-weight:600; margin-bottom:14px; }
+.demo-card p { font-size:.9375rem; color:var(--ink-3); line-height:1.9; margin-bottom:18px; }
+.demo-design-point { border-top:1px solid var(--rule); display:grid; grid-template-columns:110px 1fr; gap:17px; margin:0 0 20px; padding-top:17px; font-size:.8125rem; line-height:1.8; }
+.demo-design-point dt { color:var(--ink); }
+.demo-design-point dd { color:var(--ink-3); margin:0; }
+.demo-card .text-link { font-size:.875rem; }
+.demo-collection-cta { display:flex; align-items:center; justify-content:space-between; gap:40px; border-top:1px solid var(--rule); margin-top:60px; padding-top:32px; }
+.demo-collection-cta h3 { font-size:1.125rem; margin-bottom:9px; }
+.demo-collection-cta p { font-size:.875rem; color:var(--ink-3); margin:0; }
+.demo-collection-cta .btn { flex-shrink:0; }
+.demo-inquiry { margin:0 0 36px; padding:28px 30px; border-left:3px solid var(--accent); background:var(--accent-soft); }
+.demo-inquiry[hidden] { display:none; }
+.demo-inquiry h2 { font-size:1.125rem; margin:0 0 9px; }
+.demo-inquiry > p { font-size:.875rem; color:var(--ink-3); margin-bottom:15px; }
+.demo-inquiry-message { white-space:pre-line; padding:18px 20px; margin:0 0 14px; font-size:.875rem; background:white; border:1px solid var(--rule); }
+.demo-inquiry-actions { display:flex; flex-wrap:wrap; align-items:center; gap:14px 25px; }
+.demo-inquiry-actions button { border:1px solid var(--accent); background:#fff; color:var(--accent); padding:10px 16px; border-radius:3px; font-size:.8125rem; min-height:44px; }
+.demo-inquiry-actions a { font-size:.8125rem; color:var(--accent); text-decoration:underline; text-underline-offset:4px; }
+.demo-inquiry-status { font-size:.8125rem; color:var(--ink-3); margin-top:12px; }
+.demo-inquiry-status:empty { display:none; }
+@media(max-width:900px) { .demo-grid{gap:45px 28px;}.demo-preview{padding:14px;}.demo-card h3{font-size:1.125rem;}.demo-design-point{display:block;}.demo-design-point dt{margin-bottom:6px;}.demo-collection-cta{gap:25px;}.demo-collection-cta .btn{font-size:.8125rem;gap:18px;} }
+@media(max-width:600px) { .demos-section .section-top{display:block;}.demos-section .section-intro{max-width:none;margin-top:24px;}.demo-collection-note{margin-top:-20px;font-size:.75rem;}.demo-grid{grid-template-columns:1fr;gap:40px;}.demo-preview{padding:14px;}.demo-card-meta{margin-top:18px;}.demo-card h3{font-size:1.1875rem;}.demo-card p{font-size:.875rem;}.demo-design-point{display:grid;grid-template-columns:98px 1fr;gap:12px;font-size:.75rem;}.demo-collection-cta{display:block;margin-top:42px;padding-top:27px;}.demo-collection-cta .btn{margin-top:22px;}.demo-inquiry{padding:22px 18px;}.demo-inquiry h2{font-size:1rem;}.demo-inquiry-message{padding:15px;font-size:.8125rem;} }
+@media(prefers-reduced-motion:reduce) { .demo-preview img{transition:none;}.demo-preview:hover img{transform:none;} }

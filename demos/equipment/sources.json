@@ -1,0 +1,45 @@
+{
+  "mode": "built-in image_gen",
+  "created": "2026-09-25",
+  "scope": "Original generated photographs for fictional website demos",
+  "assets": [
+    {
+      "file": "demos/equipment/images/hero.webp",
+      "prompt": "Use case: photorealistic-natural. Original editorial photograph for a fictional independent Japanese HVAC and plumbing contractor website, industrial charcoal and natural light palette. Authentic modest commercial facilities, physically plausible components, careful safe workmanship. Landscape 3:2. Fully opaque. No text, no logos, no brand marks, no readable labels, no watermarks, no famous or recognizable buildings. Do not copy an existing photograph or named photographer's style. Wide environmental portrait of an anonymous Japanese maintenance technician wearing plain navy workwear and clean protective gloves, inspecting a neat outdoor commercial air conditioning condenser beside a low-rise small workshop, safely standing at ground level on the right side of the frame. White helmet, thoughtful calm stance, controls closed, no electrical wires exposed. Photographed slightly from behind, the technician is not posing for the camera. Neat grey industrial walls, crisp morning daylight, substantial honest engineering detail, composition balances machine on left and person on right.",
+      "original_file": "exec-dad22310-86c4-461a-a6ba-a28122c2b552.png",
+      "generation_brief": "Technician in navy workwear safely inspecting outdoor commercial HVAC at ground level.",
+      "sha256": "4958ea260f6168fefde47384bece3234e30c1e4b424333f4ad6654a17db7c49c",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "demos/equipment/images/pipes.webp",
+      "prompt": "Use case: photorealistic-natural. Original editorial photograph for a fictional independent Japanese HVAC and plumbing contractor website, industrial charcoal and natural light palette. Authentic modest commercial facilities, physically plausible components, careful safe workmanship. Landscape 3:2. Fully opaque. No text, no logos, no brand marks, no readable labels, no watermarks, no famous or recognizable buildings. Do not copy an existing photograph or named photographer's style. Architectural close-up of a tidy professionally installed set of unbranded water supply stainless steel pipes, valves and brass couplings on a light grey utility room wall. Three or four clear functional pipe routes held by proper wall brackets, one lime-green valve lever, neat joints, realistic sizes and connections. No fantastical complicated pipe tangle. Side lighting reveals precise metal craftsmanship, no people.",
+      "original_file": "exec-358e444c-37e9-48b8-9503-f1b5fbe8e99e.png",
+      "generation_brief": "Tidy stainless water pipes and brass valves; realistic workmanship.",
+      "sha256": "5157ebaa20f3ac877ebbda699e728a283e612b93dc6d12613adb57d7bb5c1a76",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "demos/equipment/images/interior.webp",
+      "prompt": "Use case: photorealistic-natural. Original editorial photograph for a fictional independent Japanese HVAC and plumbing contractor website, industrial charcoal and natural light palette. Authentic modest commercial facilities, physically plausible components, careful safe workmanship. Landscape 3:2. Fully opaque. No text, no logos, no brand marks, no readable labels, no watermarks, no famous or recognizable buildings. Do not copy an existing photograph or named photographer's style. A bright, beautifully finished but modest small Japanese neighborhood commercial studio interior, white walls and polished light-grey floor, a four-way ceiling cassette air conditioner correctly embedded flush into a plain ceiling, a few understated wooden chairs and a simple reception table, daylight from large windows. Empty room, no business branding, no signage. Architectural photograph that shows the unobtrusive air conditioning and comfortable space as a whole, wide room perspective.",
+      "original_file": "exec-349e7c1d-7e12-4b81-a3d4-ed7e050665c6.png",
+      "generation_brief": "Bright small commercial interior with a discrete ceiling cassette air conditioner.",
+      "sha256": "9b481d4417bda86b8b0cde66e7f7336b4d9b6d43310fe9a85fd8f5f9555883d4",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "demos/equipment/images/maintenance.webp",
+      "prompt": "Use case: photorealistic-natural. Original editorial photograph for a fictional independent Japanese HVAC and plumbing contractor website, industrial charcoal and natural light palette. Authentic modest commercial facilities, physically plausible components, careful safe workmanship. Landscape 3:2. Fully opaque. No text, no logos, no brand marks, no readable labels, no watermarks, no famous or recognizable buildings. Do not copy an existing photograph or named photographer's style. Close-up of careful routine HVAC maintenance at a workbench: anonymous technician's two hands wearing clean grey work gloves inspecting one removed rectangular air conditioner mesh filter, held flat over a clean work surface. Navy sleeves, a soft-bristled cleaning brush placed nearby, no electrically energized equipment, no chemical spraying, no dangerous ladders. Natural window light and calm graphite surroundings. Detailed realistic fingers, filter geometry and mesh, focus on a convincing everyday maintenance task.",
+      "original_file": "exec-dc17fbc4-9ef1-4b93-95b8-cab0958111b2.png",
+      "generation_brief": "Gloved hands inspecting a removed air-conditioner filter on a safe workbench.",
+      "sha256": "9e7b478b6142d55dff291912302fb8b41f8c3ed1b9d7e1a89967e38b5b3ac366",
+      "width": 1536,
+      "height": 1024
+    }
+  ],
+  "rights_approach": "All photographs are original generated scenes created for fictional demo businesses. No external photographs were used. Briefs exclude real brand marks, recognizable properties, text, watermarks and named artists. Briefs are retained descriptions; where available, exact prompts are separately recorded.",
+  "delivery": "Resizing and WebP encoding only. Originals retained in generation outputs."
+}

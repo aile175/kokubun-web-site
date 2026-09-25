@@ -1,0 +1,40 @@
+{
+  "mode": "built-in image_gen",
+  "created": "2026-09-25",
+  "assets": [
+    {
+      "file": "demos/legal/images/hero.webp",
+      "original_file": "exec-ff580a80-9c78-439b-b388-54af1073215a.png",
+      "generation_brief": "Sunlit Japanese consultation desk with neatly organized blank papers and pen, green garden beyond, no face.",
+      "sha256": "e94923e2a3a4248126873c0547ad6d4a6b7a2ec55be052eae5f0991963e4a569",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "demos/legal/images/hands.webp",
+      "original_file": "exec-479758f7-46ce-43b2-a8e8-99e94aee8f1d.png",
+      "generation_brief": "Close-up of anonymous hands sorting plain blank folders at a consultation desk.",
+      "sha256": "7610d3b4ae494ab1a6a3eb8b918449d04e73401c8f8deb52027917874f998f56",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "demos/legal/images/atelier.webp",
+      "original_file": "exec-8359b6c7-b336-4cdf-8d82-a8307d19e87e.png",
+      "generation_brief": "Small independent atelier storefront in a Japanese regional town, wood door and plants, no text or branding.",
+      "sha256": "d7a7d4fc2d5abcc5d42e14ca3729055bb2938212b7b9bcdf3e8e4470a90c8b82",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "demos/legal/images/room.webp",
+      "original_file": "exec-f43d0e38-e22d-420f-b42f-027b19e9d650.png",
+      "generation_brief": "Quiet consultation room with wood furniture, linen seats, plain book spines and natural plants.",
+      "sha256": "d8851d5f1c16f44b8b81a645b329df6fba7c288ba971b46440282ec4a940fdec",
+      "width": 1536,
+      "height": 1024
+    }
+  ],
+  "rights_approach": "All photographs are original generated scenes created for fictional demo businesses. No external photographs were used. Briefs exclude real brand marks, recognizable properties, text, watermarks and named artists. Briefs are retained descriptions; where available, exact prompts are separately recorded.",
+  "delivery": "Resizing and WebP encoding only. Originals retained in generation outputs."
+}

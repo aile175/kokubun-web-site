@@ -1,0 +1,40 @@
+{
+  "mode": "built-in image_gen",
+  "created": "2026-09-25",
+  "assets": [
+    {
+      "file": "demos/tax/images/hero.webp",
+      "original_file": "exec-d31ad253-631a-4e9c-8e10-9d73065550eb.png",
+      "generation_brief": "Anonymous Japanese business owner and accountant discussing blank papers at a pale ash table; no handshake; natural morning light, navy and ivory.",
+      "sha256": "b6ebf45dd00c514c87833261008936ab91aabdec77d8c36f85dc274ffe98fac9",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "demos/tax/images/business.webp",
+      "original_file": "exec-cc844755-d738-4d14-913a-ec9fe8200ca2.png",
+      "generation_brief": "Small independent Japanese cafe before opening, anonymous owner seen from behind with a notebook; oak, amber light and charcoal apron. Portrait 4:5.",
+      "sha256": "2e6b4d3c3c02e4a75df4ce6f55e2c6942ed7703e4cf3bc3be2320c284df3d6e4",
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "file": "demos/tax/images/desk.webp",
+      "original_file": "exec-f3736de7-be71-4067-bfae-29b608825d05.png",
+      "generation_brief": "Open blank notebook, unbranded calculator, navy pen and cream folder on a grey office desk; diagonal natural window light.",
+      "sha256": "dfc6aa3e222d97c1c65baf23206b3a4cbd72c58ffa3d80725675d17a06daf118",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "demos/tax/images/office.webp",
+      "original_file": "exec-67424ca2-eab8-429d-a96e-5202d0b1210a.png",
+      "generation_brief": "Approachable modest Japanese accounting office, ash desk and chairs with navy cushions, large window, afternoon light.",
+      "sha256": "59a900c852b75b3b44fb2069ac09d9edd99d0b6bd530c2e9c91b03c3d0123c49",
+      "width": 1536,
+      "height": 1024
+    }
+  ],
+  "rights_approach": "All photographs are original generated scenes created for fictional demo businesses. No external photographs were used. Briefs exclude real brand marks, recognizable properties, text, watermarks and named artists. Briefs are retained descriptions; where available, exact prompts are separately recorded.",
+  "delivery": "Resizing and WebP encoding only. Originals retained in generation outputs."
+}

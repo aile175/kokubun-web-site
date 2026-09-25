@@ -1,0 +1,40 @@
+{
+  "mode": "built-in image_gen",
+  "created": "2026-09-25",
+  "assets": [
+    {
+      "file": "demos/real-estate/images/hero.webp",
+      "original_file": "exec-5b965b7a-5588-414f-ad12-a0e4b2aee1a0.png",
+      "generation_brief": "Contemporary modest Japanese home interior opening onto a green garden; natural light and subtle lived-in details.",
+      "sha256": "da39c2cb96332bdf0876127911d372c46de876fae52be74d8437a182805c6fd4",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "demos/real-estate/images/courtyard.webp",
+      "original_file": "exec-934fa5b5-313e-4cbb-bf69-79bd5698d558.png",
+      "generation_brief": "Original modest courtyard single-story Japanese house exterior.",
+      "sha256": "db27315ac6bc6cbee0e09edcda200338f2c128dcf3ccd8c7de506fdab2c4a4e8",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "demos/real-estate/images/apartment.webp",
+      "original_file": "exec-e38be217-d63b-487a-ae1f-6b70a3766d39.png",
+      "generation_brief": "Airy renovated Japanese apartment interior, oak and white, plants and natural light.",
+      "sha256": "530dddcdf2b817afca116660116e3fa18a40e3d61e935e77930fcf701cddea3b",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "demos/real-estate/images/garden-story.webp",
+      "original_file": "exec-149a925f-4485-47b1-a64a-57c5e082d9ea.png",
+      "generation_brief": "Tactile Japanese home window overlooking a green garden, wood, linen and a ceramic cup.",
+      "sha256": "3e0047b3817319f91e642e61932379a5451b1c8580a250cef06cda7714c2142a",
+      "width": 1536,
+      "height": 1024
+    }
+  ],
+  "rights_approach": "All photographs are original generated scenes created for fictional demo businesses. No external photographs were used. Briefs exclude real brand marks, recognizable properties, text, watermarks and named artists. Briefs are retained descriptions; where available, exact prompts are separately recorded.",
+  "delivery": "Resizing and WebP encoding only. Originals retained in generation outputs."
+}

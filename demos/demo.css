@@ -1,0 +1,12 @@
+.demo-notice { box-sizing: border-box; position: relative; z-index: 100; display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 44px; padding: 9px 28px; background: #17223a; color: #eef3ff; font: 400 12px/1.6 "Noto Sans JP", sans-serif; letter-spacing: 0; }
+.demo-notice a { color: #fff; text-decoration: none; border: 0; }
+.demo-notice a:first-child { font-weight: 600; }
+.demo-notice a:last-child { text-decoration: underline; text-underline-offset: 4px; }
+.demo-notice a:focus-visible { outline: 2px solid white; outline-offset: 4px; }
+.demo-notice > span { color: #c4cfe3; }
+@media (max-width: 760px) {
+  .demo-notice { display: grid; grid-template-columns: 1fr auto; gap: 3px 12px; padding: 9px 18px; }
+  .demo-notice > span { grid-row: 2; grid-column: 1 / -1; font-size: 11px; }
+  .demo-notice a:last-child { font-size: 11px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto !important; } }
