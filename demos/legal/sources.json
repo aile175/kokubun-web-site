@@ -8,7 +8,8 @@
       "generation_brief": "Sunlit Japanese consultation desk with neatly organized blank papers and pen, green garden beyond, no face.",
       "sha256": "e94923e2a3a4248126873c0547ad6d4a6b7a2ec55be052eae5f0991963e4a569",
       "width": 1536,
-      "height": 1024
+      "height": 1024,
+      "in_use": true
     },
     {
       "file": "demos/legal/images/hands.webp",
@@ -16,7 +17,8 @@
       "generation_brief": "Close-up of anonymous hands sorting plain blank folders at a consultation desk.",
       "sha256": "7610d3b4ae494ab1a6a3eb8b918449d04e73401c8f8deb52027917874f998f56",
       "width": 1536,
-      "height": 1024
+      "height": 1024,
+      "in_use": true
     },
     {
       "file": "demos/legal/images/atelier.webp",
@@ -24,7 +26,8 @@
       "generation_brief": "Small independent atelier storefront in a Japanese regional town, wood door and plants, no text or branding.",
       "sha256": "d7a7d4fc2d5abcc5d42e14ca3729055bb2938212b7b9bcdf3e8e4470a90c8b82",
       "width": 1536,
-      "height": 1024
+      "height": 1024,
+      "in_use": false
     },
     {
       "file": "demos/legal/images/room.webp",
@@ -32,9 +35,22 @@
       "generation_brief": "Quiet consultation room with wood furniture, linen seats, plain book spines and natural plants.",
       "sha256": "d8851d5f1c16f44b8b81a645b329df6fba7c288ba971b46440282ec4a940fdec",
       "width": 1536,
-      "height": 1024
+      "height": 1024,
+      "in_use": true
+    },
+    {
+      "file": "demos/legal/images/construction.webp",
+      "original_file": "exec-d8863d58-2fad-4aba-920e-08392a142d07.png",
+      "created": "2026-09-26",
+      "prompt": "Use case: photorealistic-natural. Asset type: supporting editorial photograph for a Japanese administrative scrivener website explaining construction business permit paperwork. Primary request: an original, believable scene of a small Japanese construction contractor's office worktable being prepared for a paperwork consultation, no people. Subject: one unbranded white construction hardhat, folded architectural floor plans with simple faint linework and no legible text, a plain cream document folder, a dark green notebook and a wooden pencil, all purposefully arranged on a modest oak desk. Background: an understated small contractor office with neutral plaster walls and a softly out-of-focus window, no store display, no pottery, no reception signage. Composition: landscape 3:2, photographed at a natural standing oblique angle, strong clear arrangement, one side softly lit by daylight, enough room around objects to crop to near square for a website. Mood: quiet everyday professionalism, warm daylight, muted sage and cream with authentic material texture, not luxury, not overly staged stock photography. Constraints: no logos, no brand names, no watermarks, no readable lettering, no identifiable real architecture, no imitation of an existing photograph or named artist. The scene should immediately suggest construction work plus administrative preparation, not active construction or a generic laptop desk.",
+      "generation_brief": "Construction contractor paperwork preparation, with helmet, plans and plain files in a modest office.",
+      "sha256": "cb4a5471630f2ea99890697df029a600d36cad154d5cbf3a1e3f3db6fe359a68",
+      "width": 1536,
+      "height": 1024,
+      "in_use": true
     }
   ],
   "rights_approach": "All photographs are original generated scenes created for fictional demo businesses. No external photographs were used. Briefs exclude real brand marks, recognizable properties, text, watermarks and named artists. Briefs are retained descriptions; where available, exact prompts are separately recorded.",
-  "delivery": "Resizing and WebP encoding only. Originals retained in generation outputs."
+  "delivery": "Resizing and WebP encoding only. Originals retained in generation outputs.",
+  "updated": "2026-09-26"
 }
