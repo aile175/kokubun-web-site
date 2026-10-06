@@ -4,7 +4,7 @@
     equipment: { label: '設備会社', name: '澄川設備' },
     'real-estate': { label: '不動産会社', name: '間と庭不動産' },
     legal: { label: '行政書士事務所', name: '紙と道 行政書士事務所' },
-    tax: { label: '税理士事務所', name: '青庭会計室' }
+    tax: { label: '税理士事務所', name: '数と言 税理士事務所' }
   };
   const key = new URLSearchParams(window.location.search).get('demo');
   if (!Object.prototype.hasOwnProperty.call(demos, key)) return;

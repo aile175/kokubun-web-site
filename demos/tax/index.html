@@ -4,43 +4,324 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex,follow">
-<title>青庭会計室｜税理士事務所の制作デモ — 國分Web製作所</title>
-<meta name="description" content="小さな事業の月ごとの数字と、これからの相談を。支援の範囲・費用の考え方・準備するものを分かりやすく伝える、架空の税理士事務所の制作デモです。">
-<meta name="theme-color" content="#20294b">
+<title>数と言 税理士事務所｜入力はAIに。判断は、税理士と。（制作デモ）</title>
+<meta name="description" content="明細の取り込みと分類は会計ソフトとAIに任せ、数字の意味と次にすることを、ふだんの言葉で伝える税理士事務所。個人事業・小さな会社・相続と事業承継に対応する、架空の事務所の制作デモです（國分Web製作所）。">
+<meta name="theme-color" content="#17223a">
 <link rel="icon" type="image/svg+xml" href="../../favicon.svg?v=20260925.1">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..800&family=BIZ+UDPGothic:wght@400;700&family=M+PLUS+1:wght@700;800&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js');setTimeout(function(){if(!window.KT_READY)document.documentElement.classList.remove('js')},2500)</script>
 <link rel="stylesheet" href="../demo.css?v=20260925.1">
-<link rel="stylesheet" href="style.css?v=20260925.1">
+<link rel="stylesheet" href="style.css?v=20261007.1">
+<script src="script.js?v=20261007.1" defer></script>
 </head>
-<body>
-<aside class="demo-notice" aria-label="制作デモの案内"><a href="../../index.html#demos">國分Web製作所 / デモ一覧</a><span>架空の事業者を想定した制作デモ</span><a href="../../contact.html?demo=tax">このデザインについて相談</a></aside>
-<a class="skip-link" href="#main">本文へ進む</a>
-<header class="header">
-  <a class="wordmark" href="#top" aria-label="青庭会計室 トップへ"><span class="brand-a" aria-hidden="true">a.</span><span>青庭会計室<small>AONIWA ACCOUNTING</small></span></a>
-  <nav aria-label="ページ内ナビゲーション"><a href="#services">できること</a><a href="#fees">費用の考え方</a><a href="#process">はじめ方</a></nav>
-  <a href="#contact" class="header-contact">はじめてのご相談 <span aria-hidden="true">↗</span></a>
+<body class="p-home">
+<aside class="demo-notice" aria-label="制作デモの案内"><a href="../../index.html#demos">國分Web製作所 / デモ一覧</a><span>架空の税理士事務所を想定した、3ページ構成の制作デモ</span><button type="button" class="dn-toggle" data-dn-toggle aria-pressed="false">設計の根拠を表示</button><a href="../../contact.html?demo=tax">このデザインについて相談</a></aside>
+<a class="skip" href="#main">本文へ移動</a>
+
+<header class="hd" data-header>
+  <div class="hd-in">
+    <a class="logo" href="index.html" aria-label="数と言 税理士事務所 トップ"><span class="logo-mark" aria-hidden="true"><i></i><i></i></span><span class="logo-name">数と言</span><span class="logo-sub">税理士事務所</span></a>
+    <nav class="gnav" aria-label="メインメニュー">
+      <a href="services.html">サービスと料金</a>
+      <a href="consult.html">はじめての方へ</a>
+      <a class="gnav-cta" href="consult.html#reserve">相談を予約</a>
+    </nav>
+  </div>
 </header>
+
 <main id="main">
-<section class="hero" id="top" aria-labelledby="hero-title">
-  <div class="hero-copy"><p class="eyebrow">FOR YOUR NEXT CHAPTER</p><h1 id="hero-title">今月の数字を、<br>次の<span>判断</span>へ。</h1><p class="hero-description">帳簿をまとめる、その先まで。<br>小さな事業の「いま」を一緒に整理し、<br>これからの話ができる会計室です。</p><a class="line-link" href="#services">あなたの相談に合う入口を探す <span aria-hidden="true">↓</span></a><p class="hero-meta">月ごとの経理相談 / 創業時の整理 / 決算・申告</p></div>
-  <figure class="hero-photo"><img src="images/hero.webp" alt="机を囲み、資料を整理しながら事業について相談するイメージ" width="1536" height="1024" fetchpriority="high"><figcaption><span>NUMBERS, WITH A HUMAN VIEW.</span><span>01 / AONIWA</span></figcaption></figure>
-  <div class="hero-foot"><p>大切なのは、<strong>数字の意味が分かること。</strong></p><span>小さな会社と、ひとりの事業主のために。</span></div>
-</section>
-<section class="introduction section" aria-labelledby="intro-title"><div class="section-label"><span>OUR APPROACH</span><span>01</span></div><div class="intro-layout"><h2 id="intro-title">話したいのは、<br>書類のことだけ<br>ではありません。</h2><div class="intro-copy"><p>売上はあるのに、手元のお金が気になる。<br>経理は進めているけれど、これでよいか分からない。</p><p>そんな日々の疑問から、お聞かせください。専門用語をそのまま並べず、事業の状況に置き換えて説明します。</p><p>何をお任せいただき、何を一緒に進めるのか。ご依頼の前に、支援の範囲と役割をすり合わせます。</p><span class="intro-sign">青庭会計室の約束</span></div></div></section>
-<section class="services section" id="services" aria-labelledby="services-title"><div class="section-label"><span>WHERE TO BEGIN</span><span>02</span></div><div class="section-heading"><h2 id="services-title">いまの事業に、<br>合う関わり方を。</h2><p>「どのサービスを選ぶか」が決まる前でも大丈夫。<br>気になっていることから、整理していきましょう。</p></div>
-  <div class="service-layout"><figure class="business-photo"><img src="images/business.webp" alt="開店前のカフェでノートを確認する、小さな事業のイメージ" width="1086" height="1448" loading="lazy"><figcaption>日々の商いに、ちょうどよい支えを。</figcaption></figure><div class="service-list">
-  <details open><summary><span class="service-num">01</span><span>月ごとの経理・税務相談<small>日々の数字を、定期的に確認したい方へ</small></span><span class="toggle" aria-hidden="true"></span></summary><div class="service-body"><p>帳簿や資料の状況を確認し、月ごとの数字を一緒に振り返ります。記帳のどこまでをお任せいただくかも、事前に決めておきます。</p><dl><div><dt>相談の例</dt><dd>経理の進め方を整えたい / 数字を見ながら事業の相談をしたい</dd></div><div><dt>最初に伺うこと</dt><dd>事業内容・いまの記帳方法・資料のまとまり具合</dd></div></dl></div></details>
-  <details><summary><span class="service-num">02</span><span>創業・ひとりの事業の相談<small>経理のはじめ方から整理したい方へ</small></span><span class="toggle" aria-hidden="true"></span></summary><div class="service-body"><p>これから始める事業や、始めたばかりの仕事について。日々残しておく資料や経理の流れを、状況に合わせて確認します。</p><dl><div><dt>相談の例</dt><dd>何を記録すればよいか分からない / 会計ソフトの使い方を整理したい</dd></div><div><dt>最初に伺うこと</dt><dd>開始時期・事業の内容・現在使っている帳簿やソフト</dd></div></dl></div></details>
-  <details><summary><span class="service-num">03</span><span>決算・申告に向けた整理<small>いまの資料で進められるか確認したい方へ</small></span><span class="toggle" aria-hidden="true"></span></summary><div class="service-body"><p>対象となる期間と資料の状況を確認し、必要な作業を整理します。直前のご相談は、内容と日程を伺って対応の可否をご案内します。</p><dl><div><dt>相談の例</dt><dd>申告に向けて必要な資料を知りたい / 途中の帳簿から相談したい</dd></div><div><dt>最初に伺うこと</dt><dd>対象の期間・希望する日程・帳簿や過去の資料の有無</dd></div></dl></div></details>
-  </div></div>
-</section>
-<section class="fees section" id="fees" aria-labelledby="fees-title"><div class="section-label"><span>A CLEAR AGREEMENT</span><span>03</span></div><div class="fees-layout"><div><p class="small-heading">ご依頼の前に、分かること。</p><h2 id="fees-title">費用も、役割も。<br>見通しをそろえて<br>始めます。</h2><p>事業の規模だけでは決めず、<br>資料の状態とお任せいただく作業を確認。<br>必要な支援を整理して、お見積りします。</p></div><div class="estimate-sheet"><div class="estimate-top"><span>お見積りで確認する項目</span><span aria-hidden="true">A / 03</span></div><ol><li><span>01</span><div><h3>どこまで依頼するか</h3><p>記帳・定期相談・決算などの業務範囲</p></div></li><li><span>02</span><div><h3>どれくらいの作業があるか</h3><p>取引の量・資料の状態・対象の期間</p></div></li><li><span>03</span><div><h3>どの頻度で確認するか</h3><p>やり取りの方法・振り返りの頻度</p></div></li></ol><p class="estimate-note">作業を追加する場合も、範囲と費用をご案内してから進める設計です。</p></div></div></section>
-<section class="process section" id="process" aria-labelledby="process-title"><div class="section-label"><span>THE FIRST CONVERSATION</span><span>04</span></div><div class="section-heading"><h2 id="process-title">きれいにまとめる前に、<br>ご相談ください。</h2><p>今ある資料と、今のお悩みから。<br>最初から全部そろっていなくても構いません。</p></div><div class="process-layout"><div class="steps"><article><span>01</span><div><h3>いまの状況を教えてください</h3><p>事業の内容、相談したいこと、気になっている時期をお知らせください。</p></div></article><article><span>02</span><div><h3>相談内容と資料を確認します</h3><p>必要なものを個別にご案内します。資料を送る前に、扱い方も確認します。</p></div></article><article><span>03</span><div><h3>範囲とお見積りを確認します</h3><p>支援内容・費用・開始までの流れに納得いただいてから、ご依頼へ進みます。</p></div></article></div><figure class="desk-photo"><img src="images/desk.webp" alt="相談の内容を書き留めるためのノートと電卓のイメージ" width="1536" height="1024" loading="lazy"><figcaption>まず伝えるのは「事業内容・困っていること・希望時期」。</figcaption></figure></div></section>
-<section class="faq section" aria-labelledby="faq-title"><div class="faq-title"><p class="eyebrow">BEFORE WE MEET</p><h2 id="faq-title">気になっていること。</h2></div><div class="faq-list"><details><summary>経理が途中の状態でも相談できますか？<span aria-hidden="true">＋</span></summary><p>どこまで進んでいるかを確認するところから始めます。未整理の資料がある場合は、その状況もお伝えください。必要な作業を整理し、対応範囲をご案内します。</p></details><details><summary>個人で始めたばかりの事業も対象ですか？<span aria-hidden="true">＋</span></summary><p>個人の事業主も想定した相談案内です。事業内容と開始時期、いま困っていることが分かれば、相談の入口を整理できます。</p></details><details><summary>相談したら、そのまま契約になりますか？<span aria-hidden="true">＋</span></summary><p>ご相談とご依頼は別です。対応できる内容とお見積りをご確認いただいたうえで、ご依頼を検討できる流れにしています。</p></details></div></section>
-<section class="contact" id="contact" aria-labelledby="contact-title"><figure><img src="images/office.webp" alt="落ち着いて事業の話ができる相談室のイメージ" width="1536" height="1024" loading="lazy"></figure><div class="contact-copy"><p class="eyebrow">LET’S FIND YOUR NEXT STEP</p><h2 id="contact-title">ひとりで抱える数字を、<br>話せる数字に。</h2><p>このページは、税理士事務所を想定した制作デモです。<br>青庭会計室への税務相談は受け付けていません。</p><p>このようなホームページを作りたい方は、<br>國分Web製作所へご相談ください。</p><a class="contact-button" href="../../contact.html?demo=tax">このデモをもとに制作を相談する <span aria-hidden="true">↗</span></a><a class="back-link" href="../../index.html#demos">ほかの業種のデモを見る</a></div></section>
+  <section class="hero" aria-labelledby="hero-title" data-design="hero">
+    <div class="hero-text">
+      <p class="kicker"><span class="kicker-mark" aria-hidden="true"></span>個人事業・小さな会社・相続の税理士事務所</p>
+      <h1 id="hero-title" class="hero-title"><span class="ln"><span>入力はAIに。</span></span><span class="ln"><span>判断は、<em>税理士と。</em></span></span></h1>
+      <p class="hero-lead rv">明細の取り込みや分類は、会計ソフトとAIが自動で進める時代になりました。数と言は、その数字が何を意味し、次に何を決めればいいかを、毎月ふだんの言葉でお伝えする税理士事務所です。</p>
+      <div class="hero-cta rv"><a class="btn btn-act" href="consult.html#reserve"><span>相談を予約する<small>初回60分・無料・オンライン可</small></span><i aria-hidden="true">→</i></a><a class="link-arrow" href="#price">料金の目安を見る</a></div>
+      <ul class="promise rv" role="list">
+        <li><b>AIの結果は</b>申告の前に、すべて税理士が確かめます</li>
+        <li><b>専門用語には</b>必ず、その場で説明を添えます</li>
+        <li><b>料金は</b>数字を確かめる頻度で決まります</li>
+      </ul>
+    </div>
+
+    <figure class="board" data-board data-design="board">
+      <figcaption class="board-head">
+        <span class="board-title">例：小さなカフェの4月</span>
+        <ol class="board-steps" role="list" aria-label="数字が言葉になるまで">
+          <li data-step="1"><span>1</span>明細が届く</li>
+          <li data-step="2"><span>2</span>AIが分類</li>
+          <li data-step="3"><span>3</span>税理士が言葉に</li>
+        </ol>
+      </figcaption>
+      <div class="board-stage" data-stage>
+        <div class="scatter" data-scatter aria-hidden="true"></div>
+        <div class="cols">
+          <section class="col col-in" aria-label="入ってきたお金">
+            <h3 class="col-h">入ってきたお金</h3>
+            <ul class="col-list" role="list" data-col="in">
+              <li class="chip"><time>4/03</time><span>店頭の売上</span><b>¥96,400</b></li>
+              <li class="chip"><time>4/10</time><span>店頭の売上</span><b>¥101,200</b></li>
+              <li class="chip"><time>4/17</time><span>ケータリング</span><b>¥64,000</b></li>
+              <li class="chip"><time>4/24</time><span>店頭の売上</span><b>¥118,900</b></li>
+              <li class="chip"><time>4/30</time><span>店頭の売上</span><b>¥101,500</b></li>
+            </ul>
+            <p class="col-total"><span>合計</span><b data-total="482000">¥482,000</b></p>
+          </section>
+          <section class="col col-out" aria-label="出ていったお金">
+            <h3 class="col-h">出ていったお金</h3>
+            <ul class="col-list" role="list" data-col="out">
+              <li class="chip"><time>4/01</time><span>家賃</span><b>¥120,000</b></li>
+              <li class="chip"><time>4/05</time><span>コーヒー豆</span><b>¥48,600</b></li>
+              <li class="chip"><time>4/08</time><span>牛乳・食材</span><b>¥52,300</b></li>
+              <li class="chip"><time>4/12</time><span>電気・ガス</span><b>¥31,700</b></li>
+              <li class="chip"><time>4/15</time><span>包材</span><b>¥9,400</b></li>
+              <li class="chip"><time>4/20</time><span>アルバイト代</span><b>¥48,000</b></li>
+              <li class="chip"><time>4/28</time><span>決済手数料</span><b>¥8,000</b></li>
+            </ul>
+            <p class="col-total"><span>合計</span><b data-total="318000">¥318,000</b></p>
+          </section>
+        </div>
+      </div>
+      <div class="verdict" data-verdict>
+        <p class="verdict-main">4月は<strong>16万4千円</strong>残りました。</p>
+        <p class="verdict-sub">うち<strong>4万1千円</strong>は、来年3月の税金のために取り分けておきましょう。</p>
+        <p class="verdict-next"><span class="verdict-box" aria-hidden="true"></span><span>次にすること：税金用の口座に、<span class="nw">4万1千円を移す</span></span></p>
+      </div>
+      <button type="button" class="board-replay" data-replay>もう一度見る</button>
+    </figure>
+  </section>
+
+  <section class="sec sits" id="situations" aria-labelledby="sits-title" data-design="sits">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="sec-num" aria-hidden="true">01</p>
+        <h2 id="sits-title" class="sec-title rv-line">いまの状況に、<br>近いものは？</h2>
+        <p class="sec-lead rv">状況を選ぶと、できることと料金の目安が分かります。手続きの名前を知らなくても大丈夫です。</p>
+      </header>
+      <ul class="sit-grid" role="list">
+        <li class="rv"><a class="sit" href="services.html#sole">
+          <span class="sit-top"><span class="sit-key">A</span><span class="sit-go" aria-hidden="true">→</span></span>
+          <span class="sit-title">ひとりで<br>事業をしている</span>
+          <span class="sit-who">個人事業主・フリーランス</span>
+          <span class="sit-voices"><span>「消費税の特例が終わったら、どう計算するの？」</span><span>「これは経費にしていいの？」</span></span>
+          <span class="sit-price"><small>料金の目安</small><b>年 ¥132,000〜</b></span>
+        </a></li>
+        <li class="rv" style="--d:1"><a class="sit" href="services.html#corp">
+          <span class="sit-top"><span class="sit-key">B</span><span class="sit-go" aria-hidden="true">→</span></span>
+          <span class="sit-title">会社を<br>経営している</span>
+          <span class="sit-who">従業員30人くらいまでの会社</span>
+          <span class="sit-voices"><span>「黒字なのに、お金が残らない」</span><span>「融資の前に、数字を整えたい」</span></span>
+          <span class="sit-price"><small>料金の目安</small><b>年 ¥330,000〜</b></span>
+        </a></li>
+        <li class="rv" style="--d:2"><a class="sit" href="services.html#legacy">
+          <span class="sit-top"><span class="sit-key">C</span><span class="sit-go" aria-hidden="true">→</span></span>
+          <span class="sit-title">家族の財産や<br>会社を、引き継ぐ</span>
+          <span class="sit-who">相続・贈与・事業承継</span>
+          <span class="sit-voices"><span>「相続税がかかるか、まず知りたい」</span><span>「後継ぎに、株をどう渡せばいい？」</span></span>
+          <span class="sit-price"><small>料金の目安</small><b>内容に合わせて見積り</b></span>
+        </a></li>
+      </ul>
+      <a class="urgent rv" href="services.html#audit"><span class="urgent-dot" aria-hidden="true"></span><span class="urgent-text"><b>税務署から、調査の連絡が来た方へ</b>最初にすることを3つにまとめています</span><span class="urgent-go" aria-hidden="true">→</span></a>
+    </div>
+  </section>
+
+  <section class="sec shift" id="shift" aria-labelledby="shift-title" data-design="shift">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="sec-num" aria-hidden="true">02</p>
+        <h2 id="shift-title" class="sec-title rv-line">入力は自動に。<br>空いた時間で、あなたと話します。</h2>
+        <p class="sec-lead rv">数と言は、<dfn class="term">記帳代行</dfn><span class="gloss">（帳簿の手入力を代わりに行うこと）</span>をお引き受けしていません。明細の取り込みと分類は会計ソフトとAIに任せ、その時間と料金を、数字の確認と相談に回しています。</p>
+      </header>
+      <ol class="flow" role="list" data-flow>
+        <li class="node node-src"><p class="node-role">届くもの</p><h3 class="node-title">明細・レシート</h3><ul role="list"><li>銀行とカードの明細</li><li>レシートの写真</li><li>データの請求書</li></ul><span class="link" aria-hidden="true"><i></i></span></li>
+        <li class="node node-ai"><p class="node-role">自動</p><h3 class="node-title">会計ソフト・AI</h3><ul role="list"><li>明細を取り込む</li><li>取引を項目に分ける</li><li>取引先の<dfn class="term">登録番号</dfn><span class="gloss">（<dfn>インボイス</dfn>＝登録番号や税額を書いた請求書を、出せる事業者の番号）</span>を照合する</li></ul><span class="link" aria-hidden="true"><i></i></span></li>
+        <li class="node node-you"><p class="node-role">ひと手間</p><h3 class="node-title">あなた</h3><ul role="list"><li>レシートを撮る</li><li>迷った取引に、ひと言メモ</li><li>これからの予定を話す</li></ul><span class="link" aria-hidden="true"><i></i></span></li>
+        <li class="node node-us"><p class="node-role">判断</p><h3 class="node-title">税理士</h3><ul role="list"><li>分類が正しいかを確かめる</li><li>税金を見込み、備える額を決める</li><li>申告と、税務署とのやり取り</li></ul><span class="link" aria-hidden="true"><i></i></span></li>
+        <li class="node node-out"><p class="node-role">届くもの</p><h3 class="node-title">次にすること</h3><ul role="list"><li>今月、取り分ける税金の額</li><li>来月までに決めること</li><li>期限のある手続き</li></ul></li>
+      </ol>
+      <div class="shift-foot rv">
+        <p><b>AIの分類には、誤りが含まれることがあります。</b>申告の前に、必ず税理士が確かめます。<dfn class="term">税務代理</dfn><span class="gloss">（あなたに代わって税務署とやり取りすること）</span>・申告書の作成・税務相談は、税理士法で税理士の業務と定められています。</p>
+        <button type="button" class="link-arrow" data-flow-replay>流れをもう一度見る</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec agenda" id="agenda" aria-labelledby="agenda-title" data-agenda data-design="agenda">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="sec-num" aria-hidden="true">03</p>
+        <h2 id="agenda-title" class="sec-title rv-line">この先2年の、<br>税の予定。</h2>
+        <p class="sec-lead rv">期限は、近づいてから知るほど選べる手が減ります。関係する予定だけを表示して、1週間前のお知らせつきでカレンダーに入れておけます。</p>
+      </header>
+      <div class="agenda-bar">
+        <div class="seg" role="group" aria-label="表示する予定を選ぶ"><button type="button" data-filter="all" aria-pressed="true">すべて</button><button type="button" data-filter="biz" aria-pressed="false">個人事業</button><button type="button" data-filter="corp" aria-pressed="false">会社</button><button type="button" data-filter="family" aria-pressed="false">家族</button></div>
+        <p class="agenda-status" aria-live="polite" data-agenda-status>8件の予定</p>
+        <p class="agenda-today">今日 <b data-today>2026.09.29</b></p>
+        <div class="rail-nav"><button type="button" data-rail-prev aria-label="前の予定へ">←</button><button type="button" data-rail-next aria-label="次の予定へ">→</button></div>
+      </div>
+    </div>
+    <div class="rail" data-rail tabindex="0" role="region" aria-label="予定の一覧。横にスクロールできます">
+      <ol class="rail-list" role="list">
+        <li class="stop stop-today" aria-hidden="true"><p class="today-label">今日</p><p class="today-date" data-today>2026.09.29</p></li>
+        <li class="stop" data-date="2026-10-01" data-tags="biz corp">
+          <p class="stop-date"><time datetime="2026-10-01"><small>2026</small>10.01</time><span class="stop-left" data-left></span></p>
+          <h3>インボイスのない相手からの仕入れ。差し引ける消費税が<em>8割→7割</em>に</h3>
+          <p>免税の取引先への支払いが多いほど、納める消費税が増えます。取引先ごとに影響額を出せます。</p>
+          <p class="stop-gloss"><dfn>インボイス</dfn>：登録番号や税額を書いた請求書。<dfn>免税事業者</dfn>：消費税を納めていない事業者で、インボイスを出せません。</p>
+          <p class="stop-tags"><span>個人事業</span><span>会社</span></p>
+          <button type="button" class="ics" data-ics-date="20261001" data-ics-title="インボイス経過措置：差し引ける割合が8割→7割に" data-ics-desc="免税の取引先からの仕入れについて、控除できる消費税が70%に。数と言 税理士事務所（制作デモ）">カレンダーに入れる</button>
+        </li>
+        <li class="stop" data-date="2026-12-01" data-precision="month" data-tags="biz corp">
+          <p class="stop-date"><time datetime="2026-12"><small>2026</small>12月</time><span class="stop-left" data-left></span></p>
+          <h3>年末調整で、<em>基礎控除などの引上げ</em>を反映</h3>
+          <p>給与を払う会社・事業主は、12月の年末調整から新しい控除額で計算します。11月までの給与は変わりません。</p>
+          <p class="stop-gloss"><dfn>年末調整</dfn>：従業員の1年分の所得税を、12月に精算する手続き。<dfn>基礎控除</dfn>：所得から差し引ける、誰にでもある控除。</p>
+          <p class="stop-tags"><span>会社</span><span>人を雇う個人事業</span></p>
+          <button type="button" class="ics" data-ics-date="20261201" data-ics-title="年末調整：基礎控除などの引上げを反映" data-ics-desc="12月の年末調整から新しい控除額で計算。数と言 税理士事務所（制作デモ）">カレンダーに入れる</button>
+        </li>
+        <li class="stop" data-date="2027-01-01" data-tags="biz">
+          <p class="stop-date"><time datetime="2027-01-01"><small>2027</small>01.01</time><span class="stop-left" data-left></span></p>
+          <h3>個人事業主の<em>「3割特例」</em>が使える年が始まる</h3>
+          <p>2027年分と2028年分の消費税は、条件を満たせば売上の税の3割を納める計算を選べます。</p>
+          <p class="stop-gloss"><dfn>3割特例</dfn>：2年前の売上が1,000万円以下などの条件を満たす、インボイス登録済みの個人事業主の計算方法。</p>
+          <p class="stop-tags"><span>個人事業</span></p>
+          <button type="button" class="ics" data-ics-date="20270101" data-ics-title="個人事業主の3割特例：対象の年が始まる" data-ics-desc="2027年分・2028年分の消費税。簡易課税と比べて選ぶ。数と言 税理士事務所（制作デモ）">カレンダーに入れる</button>
+        </li>
+        <li class="stop" data-date="2027-03-15" data-tags="biz family">
+          <p class="stop-date"><time datetime="2027-03-15"><small>2027</small>03.15</time><span class="stop-left" data-left></span></p>
+          <h3>所得税と贈与税の<em>申告期限</em></h3>
+          <p>2026年分の所得税の確定申告は2月16日から。家族などから財産をもらった人の贈与税の申告も、この日までです。</p>
+          <p class="stop-gloss"><dfn>確定申告</dfn>：1年分の所得と税金を計算して、税務署に申告すること。<dfn>贈与税</dfn>：個人から財産をもらったときにかかる税金。</p>
+          <p class="stop-tags"><span>個人事業</span><span>家族</span></p>
+          <button type="button" class="ics" data-ics-date="20270315" data-ics-title="所得税・贈与税の申告期限" data-ics-desc="2026年分の所得税の確定申告（2月16日から）と、贈与税の申告の期限。数と言 税理士事務所（制作デモ）">カレンダーに入れる</button>
+        </li>
+        <li class="stop" data-date="2027-03-31" data-tags="biz">
+          <p class="stop-date"><time datetime="2027-03-31"><small>2027</small>03.31</time><span class="stop-left" data-left></span></p>
+          <h3>消費税の申告期限。<em>「2割特例」はこの年分まで</em></h3>
+          <p>個人事業主が2026年分の消費税を申告・納付する期限。2割特例を使えるのは、この申告が最後です。</p>
+          <p class="stop-gloss"><dfn>2割特例</dfn>：インボイス登録をきっかけに消費税を納め始めた事業者が、売上の税の2割を納めればよい特例。</p>
+          <p class="stop-tags"><span>個人事業</span></p>
+          <button type="button" class="ics" data-ics-date="20270331" data-ics-title="個人事業主の消費税の申告期限（2割特例の最後の年分）" data-ics-desc="2026年分の消費税の申告・納付の期限。数と言 税理士事務所（制作デモ）">カレンダーに入れる</button>
+        </li>
+        <li class="stop" data-date="2027-09-30" data-tags="corp family">
+          <p class="stop-date"><time datetime="2027-09-30"><small>2027</small>09.30</time><span class="stop-left" data-left></span></p>
+          <h3>事業承継の<em>「特例承継計画」</em>の提出期限</h3>
+          <p>会社の株を後継ぎに渡すときの税の猶予（特例措置）を使うには、この日までに都道府県へ計画を出します。</p>
+          <p class="stop-gloss"><dfn>特例承継計画</dfn>：誰に、いつ、どう引き継ぐかを書いた計画。国が認定した支援機関の助言を受けて作ります。</p>
+          <p class="stop-tags"><span>会社</span><span>家族</span></p>
+          <button type="button" class="ics" data-ics-date="20270930" data-ics-title="特例承継計画の提出期限" data-ics-desc="法人版事業承継税制（特例措置）の計画を都道府県へ提出する期限。数と言 税理士事務所（制作デモ）">カレンダーに入れる</button>
+        </li>
+        <li class="stop" data-date="2027-12-31" data-tags="corp family">
+          <p class="stop-date"><time datetime="2027-12-31"><small>2027</small>12.31</time><span class="stop-left" data-left></span></p>
+          <h3>特例措置で株を引き継ぐ、<em>贈与・相続の期限</em></h3>
+          <p>計画の提出期限は延びましたが、特例措置の対象になる贈与・相続の期限は変わっていません。</p>
+          <p class="stop-gloss"><dfn>特例措置</dfn>：事業承継の税の猶予のうち、対象を広げた期間限定の仕組み。</p>
+          <p class="stop-tags"><span>会社</span><span>家族</span></p>
+          <button type="button" class="ics" data-ics-date="20271231" data-ics-title="特例措置による株の贈与・相続の期限" data-ics-desc="法人版事業承継税制（特例措置）の対象となる贈与・相続の期限。数と言 税理士事務所（制作デモ）">カレンダーに入れる</button>
+        </li>
+        <li class="stop" data-date="2028-10-01" data-tags="biz corp">
+          <p class="stop-date"><time datetime="2028-10-01"><small>2028</small>10.01</time><span class="stop-left" data-left></span></p>
+          <h3>差し引ける消費税が、<em>7割→5割</em>に</h3>
+          <p>インボイスのない相手からの仕入れで、差し引ける割合がさらに下がります。2030年10月からは3割、2031年10月からは0です。</p>
+          <p class="stop-gloss"><dfn>仕入税額控除</dfn>：売上で預かった消費税から、仕入れで払った消費税を差し引くこと。</p>
+          <p class="stop-tags"><span>個人事業</span><span>会社</span></p>
+          <button type="button" class="ics" data-ics-date="20281001" data-ics-title="インボイス経過措置：差し引ける割合が7割→5割に" data-ics-desc="免税の取引先からの仕入れについて、控除できる消費税が50%に。数と言 税理士事務所（制作デモ）">カレンダーに入れる</button>
+        </li>
+      </ol>
+    </div>
+    <div class="wrap">
+      <div class="rail-progress" aria-hidden="true"><i data-rail-progress></i></div>
+      <p class="agenda-foot">2026年9月26日に国税庁・財務省・中小企業庁の資料で確認した、一般的な期限です。事業年度や状況によって、対象の期間は変わります。</p>
+    </div>
+  </section>
+
+  <section class="sec price" id="price" aria-labelledby="price-title" data-price data-design="price">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="sec-num" aria-hidden="true">04</p>
+        <h2 id="price-title" class="sec-title rv-line">料金は、<br>確かめる頻度で決まります。</h2>
+        <p class="sec-lead rv">入力の量ではなく、数字を一緒に確かめる回数で選べます。比べやすいよう、決算・申告の料金を含めた<b>年間の合計</b>でお見せしています。</p>
+      </header>
+      <div class="seg seg-lg" role="group" aria-label="事業の形を選ぶ"><button type="button" data-entity="sole" aria-pressed="true">個人事業</button><button type="button" data-entity="corp" aria-pressed="false">会社</button></div>
+      <ol class="plans" role="list">
+        <li class="plan rv">
+          <h3 class="plan-name">年1回</h3>
+          <p class="plan-for">申告の時期に、まとめて確かめたい</p>
+          <p class="plan-year"><span class="plan-yen">¥</span><span class="num" data-odo data-sole="132000" data-corp="330000">132,000</span><small>／年</small></p>
+          <p class="plan-break" data-sole="決算・申告 ¥132,000 のみ" data-corp="決算・申告 ¥330,000 のみ">決算・申告 ¥132,000 のみ</p>
+          <ul role="list"><li>決算と申告書の作成・提出</li><li>年1回の面談（60分）</li><li>翌年の税金の見込み</li></ul>
+        </li>
+        <li class="plan plan-rec rv" style="--d:1">
+          <p class="plan-badge">迷ったら、これ</p>
+          <h3 class="plan-name">3か月ごと</h3>
+          <p class="plan-for">税金の見込みと、お金の動きを年4回確かめたい</p>
+          <p class="plan-year"><span class="plan-yen">¥</span><span class="num" data-odo data-sole="264000" data-corp="561000">264,000</span><small>／年</small></p>
+          <p class="plan-break" data-sole="月 ¥16,500 × 12 ＋ 決算・申告 ¥66,000" data-corp="月 ¥33,000 × 12 ＋ 決算・申告 ¥165,000">月 ¥16,500 × 12 ＋ 決算・申告 ¥66,000</p>
+          <ul role="list"><li>年1回プランの内容</li><li>3か月ごとの面談と数字の確認</li><li>税金の見込み（年4回）</li><li>チャットで相談（原則1営業日以内に返信）</li></ul>
+          <p class="plan-why">年4回確かめると、納税の3か月前には金額が分かり、資金を用意できます。</p>
+        </li>
+        <li class="plan rv" style="--d:2">
+          <h3 class="plan-name">毎月</h3>
+          <p class="plan-for">毎月の数字で、経営の判断をしたい</p>
+          <p class="plan-year"><span class="plan-yen">¥</span><span class="num" data-odo data-sole="396000" data-corp="825000">396,000</span><small>／年</small></p>
+          <p class="plan-break" data-sole="月 ¥27,500 × 12 ＋ 決算・申告 ¥66,000" data-corp="月 ¥55,000 × 12 ＋ 決算・申告 ¥165,000">月 ¥27,500 × 12 ＋ 決算・申告 ¥66,000</p>
+          <ul role="list"><li>3か月ごとプランの内容</li><li>毎月の面談</li><li>資金繰り表の更新</li><li>融資の前の資料の確認</li></ul>
+        </li>
+      </ol>
+      <div class="price-foot rv">
+        <p>表示はすべて税込の<b>表示例（架空の料金）</b>です。年間の売上1億円までの目安で、年末調整や相続・事業承継などは別料金です。</p>
+        <a class="link-arrow" href="services.html#plans">料金の内訳と、単発の料金表</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec msg" aria-labelledby="msg-title" data-design="msg">
+    <div class="wrap msg-grid">
+      <figure class="msg-photo"><div class="photo"><img src="images/office.webp" width="1536" height="1024" alt="窓から木々が見える、木の机と椅子を置いた明るい相談室。AI生成のイメージ。" loading="lazy"></div></figure>
+      <div class="msg-body">
+        <p class="msg-label rv">代表税理士より</p>
+        <h2 id="msg-title" class="msg-quote rv-line">専門用語を使わない、ではなく。<br>専門用語を<em>訳せる</em><br>税理士でいたい。</h2>
+        <p class="rv">税金の説明には、どうしても専門用語が出てきます。言い換えるだけでは、税務署からの通知を読むときに困ってしまいます。だから数と言は、専門用語をそのまま使い、必ずその場で意味を添えます。</p>
+        <p class="rv">入力の作業は、ソフトとAIのほうが速く、正確になりました。私たちは空いた時間を、「この数字なら、次に何を決めるか」を一緒に考えることに使います。</p>
+        <p class="msg-sign rv">数と言 税理士事務所 代表税理士<small>架空の事務所・人物です</small></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" aria-labelledby="cta-title">
+    <div class="wrap cta-in">
+      <h2 id="cta-title" class="cta-title rv-line">最初の60分で、<br>次にすることを3つに絞ります。</h2>
+      <div class="cta-side rv">
+        <p>初回の面談は無料です。資料がそろっていなくても、状況を伺うところから始めます。</p>
+        <div class="cta-actions"><a class="btn btn-white" href="consult.html#reserve"><span>相談を予約する</span><i aria-hidden="true">→</i></a><a class="link-arrow link-light" href="consult.html#flow">相談の流れを見る</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sources wrap" aria-labelledby="sources-title">
+    <details>
+      <summary id="sources-title">このページの確認先<span>公的機関の資料・確認日 2026年9月26日</span></summary>
+      <ul>
+        <li><a href="https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice-review/index.htm" target="_blank" rel="noopener noreferrer">国税庁：令和8年度税制改正特集（インボイス制度） ↗</a></li>
+        <li><a href="https://www.nta.go.jp/users/gensen/2026kiso/index.htm" target="_blank" rel="noopener noreferrer">国税庁：令和8年度税制改正による所得税の基礎控除の引上げ等について ↗</a></li>
+        <li><a href="https://www.chusho.meti.go.jp/zaimu/shoukei/shoukei_enkatsu_tokurei_yoshiki.html" target="_blank" rel="noopener noreferrer">中小企業庁：法人版事業承継税制（特例措置）の認定に関する申請手続関係書類 ↗</a></li>
+        <li><a href="https://www.nta.go.jp/taxes/nozei/nofu/24200042/noufu_kigen.htm" target="_blank" rel="noopener noreferrer">国税庁：主な国税の納期限 ↗</a></li>
+        <li><a href="https://laws.e-gov.go.jp/law/326AC1000000237" target="_blank" rel="noopener noreferrer">e-Gov法令検索：税理士法 ↗</a></li>
+      </ul>
+    </details>
+  </section>
 </main>
-<footer class="footer"><div><span class="footer-brand">青庭会計室</span><span>AONIWA ACCOUNTING / CONCEPT WEBSITE</span></div><p>國分Web製作所による架空の税理士事務所の制作デモです。名称・サービス内容は架空の設定で、実在の事業者や実績を示すものではありません。写真はすべて生成画像です。個別の税務・法律上の助言を提供するページではありません。</p><a href="../../index.html#demos">DESIGNED BY KOKUBUN WEB</a></footer>
+
+<footer class="ft">
+  <div class="wrap">
+    <div class="ft-top">
+      <a class="logo" href="index.html"><span class="logo-mark" aria-hidden="true"><i></i><i></i></span><span class="logo-name">数と言</span><span class="logo-sub">税理士事務所</span></a>
+      <nav class="ft-nav" aria-label="フッターメニュー"><a href="index.html">トップ</a><a href="services.html">サービスと料金</a><a href="consult.html">はじめての方へ</a><a href="consult.html#glossary">用語集</a></nav>
+    </div>
+    <p class="ft-note">國分Web製作所による制作デモです。「数と言 税理士事務所」は架空の事務所で、所在地・人物・料金・受付体制も架空の設定です。実際の税務相談や申告の代理は受け付けていません。制度の説明は2026年9月26日時点の公的資料に基づく一般的な案内で、個別の判断には使えません。写真はAIで生成したイメージです。</p>
+    <div class="ft-bottom"><a href="../../contact.html?demo=tax">このようなサイトの制作を相談する ↗</a><a href="../../index.html#demos">DESIGNED BY KOKUBUN WEB</a></div>
+  </div>
+</footer>
 </body>
 </html>
