@@ -33,8 +33,31 @@
       "sha256": "59a900c852b75b3b44fb2069ac09d9edd99d0b6bd530c2e9c91b03c3d0123c49",
       "width": 1536,
       "height": 1024
+    },
+    {
+      "file": "demos/tax/images/consultation-v3.webp",
+      "original_file": "/Users/kokubunyuuki/.codex/generated_images/01a0a83c-0a2e-7da1-884b-5761ed010c1f/exec-c9f82983-6adf-4e44-bd47-0d89875b4698.png",
+      "generated": "2026-10-07",
+      "tool": "built-in image_gen",
+      "use_case": "photorealistic-natural",
+      "prompt": "Use case: photorealistic-natural\nAsset type: a large photographic hero for an original fictional Japanese tax accountant office website, landscape 3:2.\nPrimary request: create an understated, believable editorial documentary photograph of a thoughtful tax consultation in a small independent Japanese office. Two fictional Japanese people: a female tax accountant about 48 with a natural short dark hairstyle, wearing a navy jacket over a simple pale shirt, seated at the far side of a modest oak table; a male small business owner about 42 in a textured charcoal overshirt, near left seen mostly from behind and in three-quarter profile. They are calmly looking together at a paper cash-flow sheet on the table. The accountant holds one pen naturally and points to a single area of the sheet, the client listens rather than smiles at camera.\nScene/backdrop: a real-size local professional office, white plaster walls, silver aluminum window frames, a few orderly binders on a low shelf, diffuse Tokyo overcast daylight from a broad window on the right. A closed muted blue notebook, a few overlapping A4 papers and an unbranded laptop seen from its plain back. Lived-in but tidy. No spectacular interior, no lush plants.\nStyle/medium: premium but authentic Japanese documentary business photography, subtle film grain, true skin texture and ordinary facial asymmetry, natural muted color, softly cool whites and blue-gray shadows, 50mm lens. Not cinematic orange teal.\nComposition/framing: horizontal 3:2 composition, eye-level side angle, people occupy the middle of the picture with comfortable space on all sides, include some full tabletop and calm office background. Both people seated, hands anatomically coherent and minimal. Deliberate off-center composition, no symmetrical posing. Suitable for a website photo displayed beside separate HTML type; no empty text-overlay area required.\nConstraints: entirely original fictional people and office, no identifiable real business or public person, no logos, no watermark, no readable document text, no added graphic elements or typography, no handshake, no pointing toward viewer, no camera eye contact, no staged broad smiles, no glossy stock-photo aesthetic, no artificial portrait skin smoothing.",
+      "sha256": "f9333d5069a8839fb2095733569ca93fe373e5326a21cddbfc4660e27d7f9611",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "demos/tax/images/consultation-v3-768.webp",
+      "original_file": "/Users/kokubunyuuki/.codex/generated_images/01a0a83c-0a2e-7da1-884b-5761ed010c1f/exec-c9f82983-6adf-4e44-bd47-0d89875b4698.png",
+      "generated": "2026-10-07",
+      "tool": "built-in image_gen",
+      "use_case": "photorealistic-natural",
+      "prompt": "Use case: photorealistic-natural\nAsset type: a large photographic hero for an original fictional Japanese tax accountant office website, landscape 3:2.\nPrimary request: create an understated, believable editorial documentary photograph of a thoughtful tax consultation in a small independent Japanese office. Two fictional Japanese people: a female tax accountant about 48 with a natural short dark hairstyle, wearing a navy jacket over a simple pale shirt, seated at the far side of a modest oak table; a male small business owner about 42 in a textured charcoal overshirt, near left seen mostly from behind and in three-quarter profile. They are calmly looking together at a paper cash-flow sheet on the table. The accountant holds one pen naturally and points to a single area of the sheet, the client listens rather than smiles at camera.\nScene/backdrop: a real-size local professional office, white plaster walls, silver aluminum window frames, a few orderly binders on a low shelf, diffuse Tokyo overcast daylight from a broad window on the right. A closed muted blue notebook, a few overlapping A4 papers and an unbranded laptop seen from its plain back. Lived-in but tidy. No spectacular interior, no lush plants.\nStyle/medium: premium but authentic Japanese documentary business photography, subtle film grain, true skin texture and ordinary facial asymmetry, natural muted color, softly cool whites and blue-gray shadows, 50mm lens. Not cinematic orange teal.\nComposition/framing: horizontal 3:2 composition, eye-level side angle, people occupy the middle of the picture with comfortable space on all sides, include some full tabletop and calm office background. Both people seated, hands anatomically coherent and minimal. Deliberate off-center composition, no symmetrical posing. Suitable for a website photo displayed beside separate HTML type; no empty text-overlay area required.\nConstraints: entirely original fictional people and office, no identifiable real business or public person, no logos, no watermark, no readable document text, no added graphic elements or typography, no handshake, no pointing toward viewer, no camera eye contact, no staged broad smiles, no glossy stock-photo aesthetic, no artificial portrait skin smoothing.",
+      "sha256": "f51d5544153e63f41dc544cadc2b3d0239497914544f730acd5bc164b7ef001f",
+      "width": 768,
+      "height": 512
     }
   ],
   "rights_approach": "All photographs are original generated scenes created for fictional demo businesses. No external photographs were used. Briefs exclude real brand marks, recognizable properties, text, watermarks and named artists. Briefs are retained descriptions; where available, exact prompts are separately recorded.",
-  "delivery": "Resizing and WebP encoding only. Originals retained in generation outputs."
+  "delivery": "Resizing and WebP encoding only. Originals retained in generation outputs.",
+  "updated": "2026-10-07"
 }
